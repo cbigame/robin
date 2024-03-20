@@ -163,8 +163,6 @@ http://cbigame.myds.me:8866/udp/239.45.1.47:5140
 http://cbigame.myds.me:8866/udp/239.45.0.14:5140
 #EXTINF:-1 tvg-name="财富天下" tvg-id="81" tvg-logo="https://epg.deny.vip/df/财富天下.png" group-title="地方",财富天下
 http://cbigame.myds.me:8866/udp/239.45.0.7:5140
-#EXTINF:-1 tvg-name="体育频道" tvg-id="8" tvg-logo="https://epg.deny.vip/df/五星体育.png" group-title="地方",体育频道
-http://cbigame.myds.me:8866/udp/239.45.3.112:5140
 #EXTINF:-1 tvg-name="卡酷少儿" tvg-id="112" tvg-logo="https://epg.deny.vip/df/卡酷少儿.png" group-title="卡通",卡酷少儿HD
 http://cbigame.myds.me:8866/udp/239.45.0.8:5140
 #EXTINF:-1 tvg-name="金鹰卡通" tvg-id="151" tvg-logo="https://epg.deny.vip/df/金鹰卡通.png" group-title="卡通",金鹰卡通
