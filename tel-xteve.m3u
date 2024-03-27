@@ -37,6 +37,12 @@ http://cbigame.myds.me:8866/udp/239.45.0.12:5140
 http://cbigame.myds.me:8866/udp/239.45.3.52:5140
 #EXTINF:-1 tvg-id="124" tvg-name="CCTV-4K" tvg-logo="https://epg.deny.vip/cctv/CCTV-4K.png" group-title="央视",CCTV-4K
 http://cbigame.myds.me:8866/udp/239.45.0.55:5140
+#EXTINF:-1 tvg-id="76" tvg-name="CHC家庭影院" tvg-logo="https://epg.deny.vip/szpd/CHC2.png" group-title="央视",CHC家庭影院HD
+http://cbigame.myds.me:8866/udp/239.45.0.40:5140
+#EXTINF:-1 tvg-id="77" tvg-name="CHC动作电影" tvg-logo="https://epg.deny.vip/szpd/CHC3.png" group-title="央视",CHC动作电影HD
+http://cbigame.myds.me:8866/udp/239.45.0.41:5140
+#EXTINF:-1 tvg-id="78" tvg-name="CHC高清电影" tvg-logo="https://epg.deny.vip/szpd/CHC1.png" group-title="央视",CHC高清电影HD
+http://cbigame.myds.me:8866/udp/239.45.0.42:5140
 #EXTINF:-1 tvg-id="79" tvg-name="风云足球" tvg-logo="https://epg.deny.vip/cctv/CCTV-FYZQ.png" group-title="央视",风云足球HD
 http://cbigame.myds.me:8866/udp/239.45.0.43:5140
 #EXTINF:-1 tvg-id="80" tvg-name="央视台球" tvg-logo="https://epg.deny.vip/cctv/CCTV-YSTQ.png" group-title="央视",央视台球HD
@@ -67,6 +73,8 @@ http://cbigame.myds.me:8866/udp/239.45.1.125:5140
 http://cbigame.myds.me:8866/udp/239.45.1.52:5140
 #EXTINF:-1 tvg-id="169" tvg-name="中国教育-4" tvg-logo="https://epg.deny.vip/cctv/CETV-4.png" group-title="央视",中国教育-4HD
 http://cbigame.myds.me:8866/udp/239.45.0.21:5140
+#EXTINF:-1 tvg-id="92" tvg-name="早期教育" tvg-logo="https://epg.deny.vip/szpd/CETV-ZQJY.png" group-title="央视",早期教育HD
+http://cbigame.myds.me:8866/udp/239.45.0.54:5140
 #EXTINF:-1 tvg-name="东方卫视" tvg-id="101" tvg-logo="https://epg.deny.vip/ws/dongfang.png" group-title="卫视",东方卫视HD
 http://cbigame.myds.me:8866/udp/239.45.3.146:5140
 #EXTINF:-1 tvg-name="浙江卫视" tvg-id="141" tvg-logo="https://epg.deny.vip/ws/zhejiang.png" group-title="卫视",浙江卫视(高清)
@@ -195,11 +203,3 @@ http://cbigame.myds.me:8866/udp/239.45.0.8:5140
 http://cbigame.myds.me:8866/udp/239.45.3.119:5140
 #EXTINF:-1 tvg-id="236" tvg-name="嘉佳卡通" tvg-logo="https://epg.deny.vip/df/嘉佳卡通.png" group-title="卡通",嘉佳卡通
 http://cbigame.myds.me:8866/udp/239.45.1.48:5140
-#EXTINF:-1 tvg-id="76" tvg-name="CHC家庭影院" tvg-logo="https://epg.deny.vip/szpd/CHC2.png" group-title="",CHC家庭影院HD
-http://cbigame.myds.me:8866/udp/239.45.0.40:5140
-#EXTINF:-1 tvg-id="77" tvg-name="CHC动作电影" tvg-logo="https://epg.deny.vip/szpd/CHC3.png" group-title="",CHC动作电影HD
-http://cbigame.myds.me:8866/udp/239.45.0.41:5140
-#EXTINF:-1 tvg-id="78" tvg-name="CHC高清电影" tvg-logo="https://epg.deny.vip/szpd/CHC1.png" group-title="",CHC高清电影HD
-http://cbigame.myds.me:8866/udp/239.45.0.42:5140
-#EXTINF:-1 tvg-id="92" tvg-name="早期教育" tvg-logo="https://epg.deny.vip/szpd/CETV-ZQJY.png" group-title="",早期教育HD
-http://cbigame.myds.me:8866/udp/239.45.0.54:5140
