@@ -161,7 +161,7 @@ http://cbigame.myds.me:8866/udp/239.45.3.212:5140
 http://cbigame.myds.me:8866/udp/239.45.3.237:5140
 #EXTINF:-1 tvg-name="外语频道" tvg-id="110" tvg-logo="https://epg.deny.vip/df/外语频道.png" group-title="地方",外语频道HD
 http://cbigame.myds.me:8866/udp/239.45.1.127:5140
-#EXTINF:-1 tvg-name="纪实科教" tvg-id="107" tvg-logo="https://epg.deny.vip/df/BTV-科教.png" group-title="地方",纪实科教HD
+#EXTINF:-1 tvg-name="纪实科教" tvg-id="纪实科教" tvg-logo="https://epg.deny.vip/df/BTV-科教.png" group-title="地方",纪实科教HD
 http://cbigame.myds.me:8866/udp/239.45.1.14:5140
 #EXTINF:-1 tvg-name="游戏风云" tvg-id="93" tvg-logo="https://epg.deny.vip/df/游戏风云.png" group-title="地方",游戏风云HD
 http://cbigame.myds.me:8866/udp/239.45.3.131:5140
