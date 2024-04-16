@@ -17,10 +17,12 @@ http://192.168.6.1:8866/udp/239.45.3.237:5140
 http://192.168.6.1:8866/udp/239.45.1.127:5140
 #EXTINF:-1 tvg-name="纪实科教" tvg-id="纪实科教" tvg-logo="https://epg.deny.vip/df/BTV-科教.png" group-title="上海",纪实科教HD
 http://192.168.6.1:8866/udp/239.45.1.14:5140
-#EXTINF:-1 tvg-name="百事通电影频道" tvg-id="百事通电影频道" tvg-logo="https://epg.deny.vip/df/百事通电影频道.png" group-title="上海",百事通电影频道
+#EXTINF:-1 tvg-name="百事通4K电影" tvg-id="百事通4K电影" tvg-logo="https://epg.deny.vip/df/百事通4K电影.png" group-title="上海",百事通4K电影
 http://192.168.6.1:8866/udp/239.45.3.107:5140
-#EXTINF:-1 tvg-name="百事通纪实频道" tvg-id="百事通纪实频道" tvg-logo="https://epg.deny.vip/df/百事通纪实频道.png" group-title="上海",百事通纪实频道
+#EXTINF:-1 tvg-name="百事通4K纪实" tvg-id="百事通4K纪实" tvg-logo="https://epg.deny.vip/df/百事通4K纪实.png" group-title="上海",百事通4K纪实
 http://192.168.6.1:8866/udp/239.45.1.10:5140
+#EXTINF:-1 tvg-name="百事通4K儿童" tvg-id="百事通4K儿童" tvg-logo="https://epg.deny.vip/df/百事通4K儿童.png" group-title="上海",百事通4K儿童
+http://192.168.6.1:8866/udp/239.45.1.1:5140
 #EXTINF:-1 tvg-name="游戏风云" tvg-id="93" tvg-logo="https://epg.deny.vip/df/游戏风云.png" group-title="上海",游戏风云HD
 http://192.168.6.1:8866/udp/239.45.3.131:5140
 #EXTINF:-1 tvg-name="上海教育" tvg-id="116" tvg-logo="https://epg.deny.vip/df/上海教育.png" group-title="上海",上海教育HD
