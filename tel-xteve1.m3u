@@ -45,8 +45,6 @@ http://192.168.6.1:8866/udp/239.45.3.134:5140
 http://192.168.6.1:8866/udp/239.45.3.135:5140
 #EXTINF:-1 tvg-name="茶频道" tvg-id="84" tvg-logo="https://epg.deny.vip/df/茶频道.png" group-title="上海",茶频道HD
 http://192.168.6.1:8866/udp/239.45.3.18:5140
-#EXTINF:-1 tvg-name="中国天气" tvg-id="326" tvg-logo="https://epg.deny.vip/df/中国天气.png" group-title="上海",中国天气
-http://192.168.6.1:8866/udp/239.45.1.47:5140
 #EXTINF:-1 tvg-name="家庭理财" tvg-id="350" tvg-logo="https://epg.deny.vip/df/家庭理财.png" group-title="上海",家庭理财
 http://192.168.6.1:8866/udp/239.45.0.14:5140
 #EXTINF:-1 tvg-id="75" tvg-name="财富天下" tvg-logo="https://epg.deny.vip/df/财富天下.png" group-title="上海",财富天下
