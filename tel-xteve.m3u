@@ -84,9 +84,9 @@ http://cbigame.myds.me:8866/udp/239.45.0.20:5140
 #EXTINF:-1 tvg-name="CCTV-16" tvg-id="179" tvg-logo="https://epg.deny.vip/cctv/CCTV-16.png" group-title="央视",CCTV-16 4K
 http://cbigame.myds.me:8866/udp/239.45.0.12:5140
 #EXTINF:-1 tvg-name="CCTV-17" tvg-id="140" tvg-logo="https://epg.deny.vip/cctv/CCTV-17.png" group-title="央视",CCTV-17HD
-http://cbigame.myds.me:8866/udp/239.45.1.21:5140
+http://cbigame.myds.me:8866/udp/233.18.204.83:5140
 #EXTINF:-1 tvg-id="124" tvg-name="CCTV-4K" tvg-logo="https://epg.deny.vip/cctv/CCTV-4K.png" group-title="央视",CCTV-4K
-http://cbigame.myds.me:8866/udp/239.45.1.21:5140
+http://cbigame.myds.me:8866/udp/233.18.204.188:5140
 #EXTINF:-1 tvg-id="76" tvg-name="CHC家庭影院" tvg-logo="https://epg.deny.vip/szpd/CHC2.png" group-title="央视",CHC家庭影院HD
 http://cbigame.myds.me:8866/udp/239.45.0.40:5140
 #EXTINF:-1 tvg-id="77" tvg-name="CHC动作电影" tvg-logo="https://epg.deny.vip/szpd/CHC3.png" group-title="央视",CHC动作电影HD
