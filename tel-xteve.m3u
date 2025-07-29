@@ -179,7 +179,7 @@ http://cbigame.myds.me:8866/udp/239.45.1.251:5140
 http://cbigame.myds.me:8866/udp/239.45.0.40:5140
 #EXTINF:-1 tvg-id="77" tvg-name="CHC动作电影" tvg-logo="https://epg.deny.vip/szpd/CHC3.png" group-title="数字频道",CHC动作电影HD
 http://cbigame.myds.me:8866/udp/239.45.0.41:5140
-#EXTINF:-1 tvg-id="78" tvg-name="CHC影迷电影" tvg-logo="https://epg.deny.vip/szpd/CHC1.png" group-title="数字频道",CHC影迷电影HD
+#EXTINF:-1 tvg-id="78" tvg-name="CHC影迷电影" tvg-logo="https://live.fanmingming.com/tv/CHC影迷电影.png" group-title="数字频道",CHC影迷电影HD
 http://cbigame.myds.me:8866/udp/233.18.204.175:5140
 #EXTINF:-1 tvg-name="纪实科教" tvg-id="纪实科教" tvg-logo="https://epg.deny.vip/df/BTV-科教.png" group-title="数字频道",纪实科教HD
 http://cbigame.myds.me:8866/udp/239.45.1.14:5140
