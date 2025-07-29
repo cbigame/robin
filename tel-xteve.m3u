@@ -13,28 +13,16 @@ http://cbigame.myds.me:8866/udp/239.45.3.210:5140
 http://cbigame.myds.me:8866/udp/239.45.3.237:5140
 #EXTINF:-1 tvg-name="乐游" tvg-id="97" tvg-logo="https://epg.deny.vip/df/乐游.png" group-title="上海",乐游HD
 http://cbigame.myds.me:8866/udp/239.45.3.135:5140
-#EXTINF:-1 tvg-name="纪实科教" tvg-id="纪实科教" tvg-logo="https://epg.deny.vip/df/BTV-科教.png" group-title="上海",纪实科教HD
-http://cbigame.myds.me:8866/udp/239.45.1.14:5140
-#EXTINF:-1 tvg-name="百事通4K电影" tvg-id="百事通4K电影" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="上海",百事通4K电影
-http://cbigame.myds.me:8866/udp/239.45.3.107:5140
-#EXTINF:-1 tvg-name="百事通4K纪实" tvg-id="百事通4K纪实" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="上海",百事通4K纪实
-http://cbigame.myds.me:8866/udp/239.45.1.10:5140
-#EXTINF:-1 tvg-name="百事通4K儿童" tvg-id="百事通4K儿童" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="上海",百事通4K儿童
-http://cbigame.myds.me:8866/udp/239.45.1.1:5140
 #EXTINF:-1 tvg-name="游戏风云" tvg-id="93" tvg-logo="https://epg.deny.vip/df/游戏风云.png" group-title="上海",游戏风云HD
 http://cbigame.myds.me:8866/udp/239.45.3.131:5140
 #EXTINF:-1 tvg-name="上海教育" tvg-id="116" tvg-logo="https://epg.deny.vip/df/上海教育.png" group-title="上海",上海教育HD
 http://cbigame.myds.me:8866/udp/239.45.0.13:5140
 #EXTINF:-1 tvg-name="东方财经" tvg-id="118" tvg-logo="https://epg.deny.vip/df/东方财经.png" group-title="上海",东方财经HD
 http://cbigame.myds.me:8866/udp/239.45.0.17:5140
-#EXTINF:-1 tvg-name="金鹰纪实" tvg-id="161" tvg-logo="https://epg.deny.vip/df/金鹰纪实.png" group-title="上海",金鹰纪实HD
-http://cbigame.myds.me:8866/udp/239.45.1.45:5140
 #EXTINF:-1 tvg-name="法治天地" tvg-id="99" tvg-logo="https://epg.deny.vip/df/法治天地.png" group-title="上海",法治天地HD
 http://cbigame.myds.me:8866/udp/239.45.1.46:5140
 #EXTINF:-1 tvg-name="都市剧场" tvg-id="98" tvg-logo="https://epg.deny.vip/df/都市剧场.png" group-title="上海",都市剧场HD
 http://cbigame.myds.me:8866/udp/239.45.3.136:5140
-#EXTINF:-1 tvg-name="快乐垂钓" tvg-id="83" tvg-logo="https://epg.deny.vip/df/快乐垂钓.png" group-title="上海",快乐垂钓HD
-http://cbigame.myds.me:8866/udp/239.45.3.12:5140
 #EXTINF:-1 tvg-name="哈哈炫动" tvg-id="104" tvg-logo="https://epg.deny.vip/df/哈哈炫动.png" group-title="上海",哈哈炫动HD
 http://cbigame.myds.me:8866/udp/239.45.1.55:5140
 #EXTINF:-1 tvg-name="金色学堂" tvg-id="120" tvg-logo="https://epg.deny.vip/df/金色学堂.png" group-title="上海",金色学堂HD
@@ -43,12 +31,6 @@ http://cbigame.myds.me:8866/udp/239.45.0.9:5140
 http://cbigame.myds.me:8866/udp/233.18.204.205:5140
 #EXTINF:-1 tvg-name="动漫秀场" tvg-id="96" tvg-logo="https://epg.deny.vip/df/动漫秀场.png" group-title="上海",动漫秀场HD
 http://cbigame.myds.me:8866/udp/239.45.3.134:5140
-#EXTINF:-1 tvg-name="茶频道" tvg-id="84" tvg-logo="https://epg.deny.vip/df/茶频道.png" group-title="上海",茶频道HD
-http://cbigame.myds.me:8866/udp/239.45.3.18:5140
-#EXTINF:-1 tvg-name="家庭理财" tvg-id="350" tvg-logo="https://epg.deny.vip/df/家庭理财.png" group-title="上海",家庭理财
-http://cbigame.myds.me:8866/udp/239.45.0.14:5140
-#EXTINF:-1 tvg-id="75" tvg-name="财富天下" tvg-logo="https://epg.deny.vip/df/财富天下.png" group-title="上海",财富天下
-http://cbigame.myds.me:8866/udp/239.45.0.7:5140
 #EXTINF:-1 tvg-id="75" tvg-name="健康养生" tvg-logo="https://epg.deny.vip/df/财富天下.png" group-title="上海",健康养生
 http://cbigame.myds.me:8866/udp/239.45.1.28:5140
 #EXTINF:-1 tvg-name="CCTV-1" tvg-id="102" tvg-logo="https://epg.deny.vip/cctv/CCTV-1.png" group-title="央视",CCTV-1HD
@@ -89,12 +71,6 @@ http://cbigame.myds.me:8866/udp/239.45.0.12:5140
 http://cbigame.myds.me:8866/udp/233.18.204.83:5140
 #EXTINF:-1 tvg-id="124" tvg-name="CCTV-4K" tvg-logo="https://epg.deny.vip/cctv/CCTV-4K.png" group-title="央视",CCTV-4K
 http://cbigame.myds.me:8866/udp/233.18.204.188:5140
-#EXTINF:-1 tvg-id="76" tvg-name="CHC家庭影院" tvg-logo="https://epg.deny.vip/szpd/CHC2.png" group-title="央视",CHC家庭影院HD
-http://cbigame.myds.me:8866/udp/239.45.0.40:5140
-#EXTINF:-1 tvg-id="77" tvg-name="CHC动作电影" tvg-logo="https://epg.deny.vip/szpd/CHC3.png" group-title="央视",CHC动作电影HD
-http://cbigame.myds.me:8866/udp/239.45.0.41:5140
-#EXTINF:-1 tvg-id="78" tvg-name="CHC影迷电影" tvg-logo="https://epg.deny.vip/szpd/CHC1.png" group-title="央视",CHC影迷电影HD
-http://cbigame.myds.me:8866/udp/233.18.204.175:5140
 #EXTINF:-1 tvg-id="79" tvg-name="风云足球" tvg-logo="https://epg.deny.vip/cctv/CCTV-FYZQ.png" group-title="央视",风云足球HD
 http://cbigame.myds.me:8866/udp/239.45.0.43:5140
 #EXTINF:-1 tvg-id="80" tvg-name="央视台球" tvg-logo="https://epg.deny.vip/cctv/CCTV-YSTQ.png" group-title="央视",央视台球HD
@@ -137,16 +113,10 @@ http://cbigame.myds.me:8866/udp/239.45.3.228:5140
 http://cbigame.myds.me:8866/udp/233.18.204.85:5140
 #EXTINF:-1 tvg-name="北京卫视4K" tvg-id="144" tvg-logo="https://epg.deny.vip/ws/beijing.png" group-title="卫视",北京卫视4K
 http://cbigame.myds.me:8866/udp/233.18.204.209:5140
-#EXTINF:-1 tvg-name="北京卫视" tvg-id="144" tvg-logo="https://epg.deny.vip/ws/beijing.png" group-title="卫视",北京卫视HD
-http://cbigame.myds.me:8866/udp/239.45.3.229:5140
 #EXTINF:-1 tvg-name="广东卫视4K" tvg-id="144" tvg-logo="https://epg.deny.vip/ws/beijing.png" group-title="卫视",广东卫视4K
 http://cbigame.myds.me:8866/udp/233.18.204.218:5140
-#EXTINF:-1 tvg-name="广东卫视" tvg-id="145" tvg-logo="https://epg.deny.vip/ws/guangdong.png" group-title="卫视",广东卫视HD
-http://cbigame.myds.me:8866/udp/239.45.3.230:5140
 #EXTINF:-1 tvg-name="深圳卫视4K" tvg-id="144" tvg-logo="https://epg.deny.vip/ws/beijing.png" group-title="卫视",深圳卫视4K
 http://cbigame.myds.me:8866/udp/233.18.204.219:5140
-#EXTINF:-1 tvg-name="深圳卫视" tvg-id="146" tvg-logo="https://epg.deny.vip/ws/shenzhen.png" group-title="卫视",深圳卫视HD
-http://cbigame.myds.me:8866/udp/239.45.3.231:5140
 #EXTINF:-1 tvg-name="重庆卫视" tvg-id="157" tvg-logo="https://epg.deny.vip/ws/chongqing.png" group-title="卫视",重庆卫视HD
 http://cbigame.myds.me:8866/udp/239.45.1.84:5140
 #EXTINF:-1 tvg-name="天津卫视" tvg-id="154" tvg-logo="https://epg.deny.vip/ws/tianjin.png" group-title="卫视",天津卫视HD
@@ -205,9 +175,57 @@ http://cbigame.myds.me:8866/udp/239.45.1.213:5140
 http://cbigame.myds.me:8866/udp/239.45.0.39:5140
 #EXTINF:-1 tvg-id="243" tvg-name="康巴卫视" tvg-logo="https://epg.deny.vip/ws/yanbian.png" group-title="卫视",康巴卫视
 http://cbigame.myds.me:8866/udp/239.45.1.251:5140
-#EXTINF:-1 tvg-id="167" tvg-name="卡酷少儿" tvg-logo="https://epg.deny.vip/df/卡酷少儿.png" group-title="卡通",卡酷少儿HD
+#EXTINF:-1 tvg-id="76" tvg-name="CHC家庭影院" tvg-logo="https://epg.deny.vip/szpd/CHC2.png" group-title="数字频道",CHC家庭影院HD
+http://cbigame.myds.me:8866/udp/239.45.0.40:5140
+#EXTINF:-1 tvg-id="77" tvg-name="CHC动作电影" tvg-logo="https://epg.deny.vip/szpd/CHC3.png" group-title="数字频道",CHC动作电影HD
+http://cbigame.myds.me:8866/udp/239.45.0.41:5140
+#EXTINF:-1 tvg-id="78" tvg-name="CHC影迷电影" tvg-logo="https://epg.deny.vip/szpd/CHC1.png" group-title="数字频道",CHC影迷电影HD
+http://cbigame.myds.me:8866/udp/233.18.204.175:5140
+#EXTINF:-1 tvg-name="纪实科教" tvg-id="纪实科教" tvg-logo="https://epg.deny.vip/df/BTV-科教.png" group-title="数字频道",纪实科教HD
+http://cbigame.myds.me:8866/udp/239.45.1.14:5140
+#EXTINF:-1 tvg-name="金鹰纪实" tvg-id="161" tvg-logo="https://epg.deny.vip/df/金鹰纪实.png" group-title="数字频道",金鹰纪实HD
+http://cbigame.myds.me:8866/udp/239.45.1.45:5140
+#EXTINF:-1 tvg-id="167" tvg-name="卡酷少儿" tvg-logo="https://epg.deny.vip/df/卡酷少儿.png" group-title="数字频道",卡酷少儿HD
 http://cbigame.myds.me:8866/udp/239.45.0.8:5140
-#EXTINF:-1 tvg-id="171" tvg-name="金鹰卡通" tvg-logo="https://epg.deny.vip/df/金鹰卡通.png" group-title="卡通",金鹰卡通HD
+#EXTINF:-1 tvg-id="171" tvg-name="金鹰卡通" tvg-logo="https://epg.deny.vip/df/金鹰卡通.png" group-title="数字频道",金鹰卡通HD
 http://cbigame.myds.me:8866/udp/239.45.3.119:5140
-#EXTINF:-1 tvg-id="236" tvg-name="嘉佳卡通" tvg-logo="https://epg.deny.vip/df/嘉佳卡通.png" group-title="卡通",嘉佳卡通
+#EXTINF:-1 tvg-id="236" tvg-name="嘉佳卡通" tvg-logo="https://epg.deny.vip/df/嘉佳卡通.png" group-title="数字频道",嘉佳卡通
 http://cbigame.myds.me:8866/udp/239.45.1.48:5140
+#EXTINF:-1 tvg-name="快乐垂钓" tvg-id="83" tvg-logo="https://epg.deny.vip/df/快乐垂钓.png" group-title="数字频道",快乐垂钓HD
+http://cbigame.myds.me:8866/udp/239.45.3.12:5140
+#EXTINF:-1 tvg-name="茶频道" tvg-id="84" tvg-logo="https://epg.deny.vip/df/茶频道.png" group-title="数字频道",茶频道HD
+http://cbigame.myds.me:8866/udp/239.45.3.18:5140
+#EXTINF:-1 tvg-name="先锋乒羽" tvg-id="350" tvg-logo="https://epg.deny.vip/df/家庭理财.png" group-title="数字频道",先锋乒羽
+http://cbigame.myds.me:8866/udp/239.45.3.43:5140
+#EXTINF:-1 tvg-name="家庭理财" tvg-id="350" tvg-logo="https://epg.deny.vip/df/家庭理财.png" group-title="数字频道",家庭理财
+http://cbigame.myds.me:8866/udp/239.45.0.14:5140
+#EXTINF:-1 tvg-id="75" tvg-name="财富天下" tvg-logo="https://epg.deny.vip/df/财富天下.png" group-title="数字频道",财富天下
+http://cbigame.myds.me:8866/udp/239.45.0.7:5140
+#EXTINF:-1 tvg-name="百事通4K电影" tvg-id="百事通4K电影" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",百事通4K电影
+http://cbigame.myds.me:8866/udp/239.45.3.107:5140
+#EXTINF:-1 tvg-name="百事通4K纪实" tvg-id="百事通4K纪实" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",百事通4K纪实
+http://cbigame.myds.me:8866/udp/239.45.1.10:5140
+#EXTINF:-1 tvg-name="百事通4K儿童" tvg-id="百事通4K儿童" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",百事通4K儿童
+http://cbigame.myds.me:8866/udp/239.45.1.1:5140
+#EXTINF:-1 tvg-name="百事通人文" tvg-id="百事通人文" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",百事通人文
+http://cbigame.myds.me:8866/udp/239.45.1.29:5140
+#EXTINF:-1 tvg-name="百事通电影介绍" tvg-id="百事通电影介绍" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",百事通电影介绍
+http://cbigame.myds.me:8866/udp/239.45.1.15:5140
+#EXTINF:-1 tvg-name="BesTV直播1" tvg-id="BesTV直播1" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",BesTV直播1
+http://cbigame.myds.me:8866/udp/239.45.3.53:5140
+#EXTINF:-1 tvg-name="BesTV直播2" tvg-id="BesTV直播2" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",BesTV直播2
+http://cbigame.myds.me:8866/udp/239.45.3.54:5140
+#EXTINF:-1 tvg-name="BesTV直播3" tvg-id="BesTV直播3" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",BesTV直播3
+http://cbigame.myds.me:8866/udp/239.45.3.55:5140
+#EXTINF:-1 tvg-name="BesTV直播4" tvg-id="BesTV直播4" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",BesTV直播4
+http://cbigame.myds.me:8866/udp/239.45.3.137:5140
+#EXTINF:-1 tvg-name="BesTV直播5" tvg-id="BesTV直播5" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",BesTV直播5
+http://cbigame.myds.me:8866/udp/239.45.3.138:5140
+#EXTINF:-1 tvg-name="BesTV直播6" tvg-id="BesTV直播6" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",BesTV直播6
+http://cbigame.myds.me:8866/udp/239.45.3.139:5140
+#EXTINF:-1 tvg-name="BesTV直播7" tvg-id="BesTV直播7" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",BesTV直播7
+http://cbigame.myds.me:8866/udp/239.45.3.140:5140
+#EXTINF:-1 tvg-name="BesTV直播8" tvg-id="BesTV直播8" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",BesTV直播8
+http://cbigame.myds.me:8866/udp/239.45.3.215:5140
+#EXTINF:-1 tvg-name="BesTV直播9" tvg-id="BesTV直播9" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",BesTV直播9
+http://cbigame.myds.me:8866/udp/239.45.3.216:5140
