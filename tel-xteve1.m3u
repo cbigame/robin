@@ -173,7 +173,7 @@ http://192.168.6.1:8866/udp/239.45.1.229:5140
 http://192.168.6.1:8866/udp/239.45.1.213:5140
 #EXTINF:-1 tvg-id="243" tvg-name="延边卫视" tvg-logo="https://epg.deny.vip/ws/yanbian.png" group-title="卫视",延边卫视
 http://192.168.6.1:8866/udp/239.45.0.39:5140
-#EXTINF:-1 tvg-id="243" tvg-name="康巴卫视" tvg-logo="https://epg.deny.vip/ws/kangba.png" group-title="卫视",康巴卫视
+#EXTINF:-1 tvg-id="243" tvg-name="康巴卫视" tvg-logo="https://live.fanmingming.com/tv/康巴卫视.png" group-title="卫视",康巴卫视
 http://192.168.6.1:8866/udp/239.45.1.251:5140
 #EXTINF:-1 tvg-id="76" tvg-name="CHC家庭影院" tvg-logo="https://epg.deny.vip/szpd/CHC2.png" group-title="数字频道",CHC家庭影院HD
 http://192.168.6.1:8866/udp/239.45.0.40:5140
@@ -195,7 +195,7 @@ http://192.168.6.1:8866/udp/239.45.1.48:5140
 http://192.168.6.1:8866/udp/239.45.3.12:5140
 #EXTINF:-1 tvg-name="茶频道" tvg-id="84" tvg-logo="https://epg.deny.vip/df/茶频道.png" group-title="数字频道",茶频道HD
 http://192.168.6.1:8866/udp/239.45.3.18:5140
-#EXTINF:-1 tvg-name="先锋乒羽" tvg-id="350" tvg-logo="https://epg.deny.vip/df/先锋乒羽.png" group-title="数字频道",先锋乒羽
+#EXTINF:-1 tvg-name="先锋乒羽" tvg-id="350" tvg-logo="https://live.fanmingming.com/tv/先锋乒羽.png" group-title="数字频道",先锋乒羽
 http://192.168.6.1:8866/udp/239.45.3.43:5140
 #EXTINF:-1 tvg-name="家庭理财" tvg-id="350" tvg-logo="https://epg.deny.vip/df/家庭理财.png" group-title="数字频道",家庭理财
 http://192.168.6.1:8866/udp/239.45.0.14:5140
