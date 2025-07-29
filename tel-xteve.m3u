@@ -31,7 +31,7 @@ http://cbigame.myds.me:8866/udp/239.45.0.9:5140
 http://cbigame.myds.me:8866/udp/233.18.204.205:5140
 #EXTINF:-1 tvg-name="动漫秀场" tvg-id="96" tvg-logo="https://epg.deny.vip/df/动漫秀场.png" group-title="上海",动漫秀场HD
 http://cbigame.myds.me:8866/udp/239.45.3.134:5140
-#EXTINF:-1 tvg-id="75" tvg-name="健康养生" tvg-logo="https://epg.deny.vip/df/财富天下.png" group-title="上海",健康养生
+#EXTINF:-1 tvg-id="75" tvg-name="健康养生" tvg-logo="https://epg.deny.vip/df/健康养生.png" group-title="上海",健康养生
 http://cbigame.myds.me:8866/udp/239.45.1.28:5140
 #EXTINF:-1 tvg-name="CCTV-1" tvg-id="102" tvg-logo="https://epg.deny.vip/cctv/CCTV-1.png" group-title="央视",CCTV-1HD
 http://cbigame.myds.me:8866/udp/239.45.3.145:5140
@@ -113,9 +113,9 @@ http://cbigame.myds.me:8866/udp/239.45.3.228:5140
 http://cbigame.myds.me:8866/udp/233.18.204.85:5140
 #EXTINF:-1 tvg-name="北京卫视4K" tvg-id="144" tvg-logo="https://epg.deny.vip/ws/beijing.png" group-title="卫视",北京卫视4K
 http://cbigame.myds.me:8866/udp/233.18.204.209:5140
-#EXTINF:-1 tvg-name="广东卫视4K" tvg-id="144" tvg-logo="https://epg.deny.vip/ws/beijing.png" group-title="卫视",广东卫视4K
+#EXTINF:-1 tvg-name="广东卫视4K" tvg-id="144" tvg-logo="https://epg.deny.vip/ws/guangdong.png" group-title="卫视",广东卫视4K
 http://cbigame.myds.me:8866/udp/233.18.204.218:5140
-#EXTINF:-1 tvg-name="深圳卫视4K" tvg-id="144" tvg-logo="https://epg.deny.vip/ws/beijing.png" group-title="卫视",深圳卫视4K
+#EXTINF:-1 tvg-name="深圳卫视4K" tvg-id="144" tvg-logo="https://epg.deny.vip/ws/shenzhen.png" group-title="卫视",深圳卫视4K
 http://cbigame.myds.me:8866/udp/233.18.204.219:5140
 #EXTINF:-1 tvg-name="重庆卫视" tvg-id="157" tvg-logo="https://epg.deny.vip/ws/chongqing.png" group-title="卫视",重庆卫视HD
 http://cbigame.myds.me:8866/udp/239.45.1.84:5140
@@ -173,7 +173,7 @@ http://cbigame.myds.me:8866/udp/239.45.1.116:5140
 http://cbigame.myds.me:8866/udp/239.45.1.213:5140
 #EXTINF:-1 tvg-id="243" tvg-name="延边卫视" tvg-logo="https://epg.deny.vip/ws/yanbian.png" group-title="卫视",延边卫视
 http://cbigame.myds.me:8866/udp/239.45.0.39:5140
-#EXTINF:-1 tvg-id="243" tvg-name="康巴卫视" tvg-logo="https://epg.deny.vip/ws/yanbian.png" group-title="卫视",康巴卫视
+#EXTINF:-1 tvg-id="243" tvg-name="康巴卫视" tvg-logo="https://epg.deny.vip/ws/kangba.png" group-title="卫视",康巴卫视
 http://cbigame.myds.me:8866/udp/239.45.1.251:5140
 #EXTINF:-1 tvg-id="76" tvg-name="CHC家庭影院" tvg-logo="https://epg.deny.vip/szpd/CHC2.png" group-title="数字频道",CHC家庭影院HD
 http://cbigame.myds.me:8866/udp/239.45.0.40:5140
@@ -195,7 +195,7 @@ http://cbigame.myds.me:8866/udp/239.45.1.48:5140
 http://cbigame.myds.me:8866/udp/239.45.3.12:5140
 #EXTINF:-1 tvg-name="茶频道" tvg-id="84" tvg-logo="https://epg.deny.vip/df/茶频道.png" group-title="数字频道",茶频道HD
 http://cbigame.myds.me:8866/udp/239.45.3.18:5140
-#EXTINF:-1 tvg-name="先锋乒羽" tvg-id="350" tvg-logo="https://epg.deny.vip/df/家庭理财.png" group-title="数字频道",先锋乒羽
+#EXTINF:-1 tvg-name="先锋乒羽" tvg-id="350" tvg-logo="https://epg.deny.vip/df/先锋乒羽.png" group-title="数字频道",先锋乒羽
 http://cbigame.myds.me:8866/udp/239.45.3.43:5140
 #EXTINF:-1 tvg-name="家庭理财" tvg-id="350" tvg-logo="https://epg.deny.vip/df/家庭理财.png" group-title="数字频道",家庭理财
 http://cbigame.myds.me:8866/udp/239.45.0.14:5140
