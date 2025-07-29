@@ -113,9 +113,9 @@ http://cbigame.myds.me:8866/udp/239.45.3.228:5140
 http://cbigame.myds.me:8866/udp/233.18.204.85:5140
 #EXTINF:-1 tvg-name="北京卫视" tvg-id="144" tvg-logo="https://live.fanmingming.com/tv/北京卫视4K.png" group-title="卫视",北京卫视4K
 http://cbigame.myds.me:8866/udp/233.18.204.209:5140
-#EXTINF:-1 tvg-name="广东卫视" tvg-id="144" tvg-logo="https://live.fanmingming.com/tv/广东卫视4K.png" group-title="卫视",广东卫视4K
+#EXTINF:-1 tvg-name="广东卫视" tvg-id="145" tvg-logo="https://live.fanmingming.com/tv/广东卫视4K.png" group-title="卫视",广东卫视4K
 http://cbigame.myds.me:8866/udp/233.18.204.218:5140
-#EXTINF:-1 tvg-name="深圳卫视" tvg-id="144" tvg-logo="https://live.fanmingming.com/tv/深圳卫视4K.png" group-title="卫视",深圳卫视4K
+#EXTINF:-1 tvg-name="深圳卫视" tvg-id="146" tvg-logo="https://live.fanmingming.com/tv/深圳卫视4K.png" group-title="卫视",深圳卫视4K
 http://cbigame.myds.me:8866/udp/233.18.204.219:5140
 #EXTINF:-1 tvg-name="重庆卫视" tvg-id="157" tvg-logo="https://epg.deny.vip/ws/chongqing.png" group-title="卫视",重庆卫视HD
 http://cbigame.myds.me:8866/udp/239.45.1.84:5140
