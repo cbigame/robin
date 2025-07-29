@@ -31,6 +31,8 @@ http://192.168.6.1:8866/udp/239.45.0.9:5140
 http://192.168.6.1:8866/udp/233.18.204.205:5140
 #EXTINF:-1 tvg-name="动漫秀场" tvg-id="96" tvg-logo="https://epg.deny.vip/df/动漫秀场.png" group-title="上海",动漫秀场HD
 http://192.168.6.1:8866/udp/239.45.3.134:5140
+#EXTINF:-1 tvg-id="75" tvg-name="健康养生" tvg-logo="https://epg.deny.vip/df/财富天下.png" group-title="上海",健康养生
+http://192.168.6.1:8866/udp/239.45.1.28:5140
 #EXTINF:-1 tvg-name="CCTV-1" tvg-id="102" tvg-logo="https://epg.deny.vip/cctv/CCTV-1.png" group-title="央视",CCTV-1HD
 http://192.168.6.1:8866/udp/239.45.3.145:5140
 #EXTINF:-1 tvg-name="CCTV-2" tvg-id="125" tvg-logo="https://epg.deny.vip/cctv/CCTV-2.png" group-title="央视",CCTV-2HD
