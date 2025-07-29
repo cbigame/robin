@@ -49,6 +49,8 @@ http://cbigame.myds.me:8866/udp/239.45.3.18:5140
 http://cbigame.myds.me:8866/udp/239.45.0.14:5140
 #EXTINF:-1 tvg-id="75" tvg-name="财富天下" tvg-logo="https://epg.deny.vip/df/财富天下.png" group-title="上海",财富天下
 http://cbigame.myds.me:8866/udp/239.45.0.7:5140
+#EXTINF:-1 tvg-id="75" tvg-name="健康养生" tvg-logo="https://epg.deny.vip/df/财富天下.png" group-title="上海",健康养生
+http://cbigame.myds.me:8866/udp/239.45.1.28:5140
 #EXTINF:-1 tvg-name="CCTV-1" tvg-id="102" tvg-logo="https://epg.deny.vip/cctv/CCTV-1.png" group-title="央视",CCTV-1HD
 http://cbigame.myds.me:8866/udp/239.45.3.145:5140
 #EXTINF:-1 tvg-name="CCTV-2" tvg-id="125" tvg-logo="https://epg.deny.vip/cctv/CCTV-2.png" group-title="央视",CCTV-2HD
