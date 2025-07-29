@@ -187,14 +187,14 @@ http://192.168.6.1:8866/udp/239.45.1.14:5140
 http://192.168.6.1:8866/udp/239.45.1.45:5140
 #EXTINF:-1 tvg-id="167" tvg-name="卡酷少儿" tvg-logo="https://epg.deny.vip/df/卡酷少儿.png" group-title="数字频道",卡酷少儿HD
 http://192.168.6.1:8866/udp/239.45.0.8:5140
-#EXTINF:-1 tvg-id="171" tvg-name="金鹰卡通" tvg-logo="https://epg.deny.vip/df/金鹰卡通.png" group-title="数字频道",金鹰卡通HD
-http://192.168.6.1:8866/udp/239.45.3.119:5140
-#EXTINF:-1 tvg-id="236" tvg-name="嘉佳卡通" tvg-logo="https://epg.deny.vip/df/嘉佳卡通.png" group-title="数字频道",嘉佳卡通
-http://192.168.6.1:8866/udp/239.45.1.48:5140
 #EXTINF:-1 tvg-name="快乐垂钓" tvg-id="83" tvg-logo="https://epg.deny.vip/df/快乐垂钓.png" group-title="数字频道",快乐垂钓HD
 http://192.168.6.1:8866/udp/239.45.3.12:5140
 #EXTINF:-1 tvg-name="茶频道" tvg-id="84" tvg-logo="https://epg.deny.vip/df/茶频道.png" group-title="数字频道",茶频道HD
 http://192.168.6.1:8866/udp/239.45.3.18:5140
+#EXTINF:-1 tvg-id="171" tvg-name="金鹰卡通" tvg-logo="https://epg.deny.vip/df/金鹰卡通.png" group-title="数字频道",金鹰卡通HD
+http://192.168.6.1:8866/udp/239.45.3.119:5140
+#EXTINF:-1 tvg-id="236" tvg-name="嘉佳卡通" tvg-logo="https://epg.deny.vip/df/嘉佳卡通.png" group-title="数字频道",嘉佳卡通
+http://192.168.6.1:8866/udp/239.45.1.48:5140
 #EXTINF:-1 tvg-name="先锋乒羽" tvg-id="350" tvg-logo="https://live.fanmingming.com/tv/先锋乒羽.png" group-title="数字频道",先锋乒羽
 http://192.168.6.1:8866/udp/239.45.3.43:5140
 #EXTINF:-1 tvg-name="家庭理财" tvg-id="350" tvg-logo="https://epg.deny.vip/df/家庭理财.png" group-title="数字频道",家庭理财
