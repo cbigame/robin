@@ -203,6 +203,8 @@ http://cbigame.myds.me:8866/udp/239.45.1.116:5140
 http://cbigame.myds.me:8866/udp/239.45.1.213:5140
 #EXTINF:-1 tvg-id="243" tvg-name="延边卫视" tvg-logo="https://epg.deny.vip/ws/yanbian.png" group-title="卫视",延边卫视
 http://cbigame.myds.me:8866/udp/239.45.0.39:5140
+#EXTINF:-1 tvg-id="243" tvg-name="康巴卫视" tvg-logo="https://epg.deny.vip/ws/yanbian.png" group-title="卫视",康巴卫视
+http://cbigame.myds.me:8866/udp/239.45.1.251:5140
 #EXTINF:-1 tvg-id="167" tvg-name="卡酷少儿" tvg-logo="https://epg.deny.vip/df/卡酷少儿.png" group-title="卡通",卡酷少儿HD
 http://cbigame.myds.me:8866/udp/239.45.0.8:5140
 #EXTINF:-1 tvg-id="171" tvg-name="金鹰卡通" tvg-logo="https://epg.deny.vip/df/金鹰卡通.png" group-title="卡通",金鹰卡通HD
