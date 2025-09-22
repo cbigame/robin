@@ -155,19 +155,19 @@ http://cbigame.myds.me:8866/udp/239.45.1.80:5140
 http://cbigame.myds.me:8866/udp/239.45.3.238:5140
 #EXTINF:-1 tvg-name="青海卫视" tvg-id="170" tvg-logo="https://epg.deny.vip/ws/qinghai.png" group-title="卫视",青海卫视HD
 http://cbigame.myds.me:8866/udp/233.18.204.112:5140
-#EXTINF:-1 tvg-name="山西卫视HD" tvg-id="217" tvg-logo="https://epg.deny.vip/ws/shanxi_.png" group-title="卫视",山西卫视HD
+#EXTINF:-1 tvg-name="山西卫视" tvg-id="217" tvg-logo="https://epg.deny.vip/ws/shanxi_.png" group-title="卫视",山西卫视HD
 http://cbigame.myds.me:8866/udp/233.18.204.211:5140
 #EXTINF:-1 tvg-name="内蒙古卫视" tvg-id="226" tvg-logo="https://epg.deny.vip/ws/neimeng.png" group-title="卫视",内蒙古卫视HD
 http://cbigame.myds.me:8866/udp/233.18.204.217:5140
 #EXTINF:-1 tvg-name="三沙卫视" tvg-id="234" tvg-logo="https://epg.deny.vip/ws/sansha.png" group-title="卫视",三沙卫视HD
 http://cbigame.myds.me:8866/udp/233.18.204.172:5140
-#EXTINF:-1 tvg-name="西藏卫视" tvg-id="219" tvg-logo="https://epg.deny.vip/ws/xizang.png" group-title="卫视",西藏卫视
+#EXTINF:-1 tvg-name="西藏卫视" tvg-id="219" tvg-logo="https://epg.deny.vip/ws/xizang.png" group-title="卫视",西藏卫视HD
 http://cbigame.myds.me:8866/udp/233.18.204.222:5140
-#EXTINF:-1 tvg-name="陕西卫视" tvg-id="220" tvg-logo="https://epg.deny.vip/ws/shanxi.png" group-title="卫视",陕西卫视
+#EXTINF:-1 tvg-name="陕西卫视" tvg-id="220" tvg-logo="https://epg.deny.vip/ws/shanxi.png" group-title="卫视",陕西卫视HD
 http://cbigame.myds.me:8866/udp/233.18.204.223:5140
-#EXTINF:-1 tvg-name="兵团卫视" tvg-id="233" tvg-logo="https://epg.deny.vip/ws/bingtuan.png" group-title="卫视",兵团卫视
+#EXTINF:-1 tvg-name="兵团卫视" tvg-id="233" tvg-logo="https://epg.deny.vip/ws/bingtuan.png" group-title="卫视",兵团卫视HD
 http://cbigame.myds.me:8866/udp/233.18.204.221:5140
-#EXTINF:-1 tvg-name="新疆卫视" tvg-id="232" tvg-logo="https://epg.deny.vip/ws/xinjiang.png" group-title="卫视",新疆卫视
+#EXTINF:-1 tvg-name="新疆卫视" tvg-id="232" tvg-logo="https://epg.deny.vip/ws/xinjiang.png" group-title="卫视",新疆卫视HD
 http://cbigame.myds.me:8866/udp/233.18.204.220:5140
 #EXTINF:-1 tvg-name="宁夏卫视" tvg-id="201" tvg-logo="https://epg.deny.vip/ws/ningxia.png" group-title="卫视",宁夏卫视
 http://cbigame.myds.me:8866/udp/239.45.1.213:5140
@@ -229,4 +229,5 @@ http://cbigame.myds.me:8866/udp/239.45.3.140:5140
 http://cbigame.myds.me:8866/udp/239.45.3.215:5140
 #EXTINF:-1 tvg-name="BesTV直播9" tvg-id="BesTV直播9" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",BesTV直播9
 http://cbigame.myds.me:8866/udp/239.45.3.216:5140
+
 
