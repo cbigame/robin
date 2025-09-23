@@ -152,7 +152,7 @@ http://cbigame.myds.me:8866/udp/239.45.3.232:5140
 #EXTINF:-1 tvg-name="贵州卫视" tvg-id="158" tvg-logo="https://epg.deny.vip/ws/guizhou.png" group-title="卫视",贵州卫视HD
 http://cbigame.myds.me:8866/udp/239.45.1.80:5140
 #EXTINF:-1 tvg-name="山东卫视" tvg-id="148" tvg-logo="https://epg.deny.vip/ws/shandong.png" group-title="卫视",山东卫视4K
-http://cbigame.myds.me:8866/udp/239.45.240.216:5140
+http://cbigame.myds.me:8866/udp/239.45.204.216:5140
 #EXTINF:-1 tvg-name="青海卫视" tvg-id="170" tvg-logo="https://epg.deny.vip/ws/qinghai.png" group-title="卫视",青海卫视HD
 http://cbigame.myds.me:8866/udp/233.18.204.112:5140
 #EXTINF:-1 tvg-name="山西卫视" tvg-id="217" tvg-logo="https://epg.deny.vip/ws/shanxi_.png" group-title="卫视",山西卫视HD
@@ -229,6 +229,7 @@ http://cbigame.myds.me:8866/udp/239.45.3.140:5140
 http://cbigame.myds.me:8866/udp/239.45.3.215:5140
 #EXTINF:-1 tvg-name="BesTV直播9" tvg-id="BesTV直播9" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",BesTV直播9
 http://cbigame.myds.me:8866/udp/239.45.3.216:5140
+
 
 
 
