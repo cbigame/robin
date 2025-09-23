@@ -105,18 +105,22 @@ http://cbigame.myds.me:8866/udp/239.45.0.21:5140
 http://cbigame.myds.me:8866/udp/239.45.0.54:5140
 #EXTINF:-1 tvg-name="东方卫视" tvg-id="101" tvg-logo="https://epg.deny.vip/ws/dongfang.png" group-title="卫视",东方卫视4K
 http://cbigame.myds.me:8866/udp/233.18.204.224:5140
-#EXTINF:-1 tvg-name="浙江卫视" tvg-id="141" tvg-logo="https://epg.deny.vip/ws/zhejiang.png" group-title="卫视",浙江卫视HD
-http://cbigame.myds.me:8866/udp/233.18.204.84:5140
-#EXTINF:-1 tvg-name="湖南卫视" tvg-id="143" tvg-logo="https://epg.deny.vip/ws/hunan.png" group-title="卫视",湖南卫视HD
-http://cbigame.myds.me:8866/udp/239.45.3.228:5140
-#EXTINF:-1 tvg-name="江苏卫视" tvg-id="142" tvg-logo="https://epg.deny.vip/ws/jiangsu.png" group-title="卫视",江苏卫视4K
+#EXTINF:-1 tvg-name="浙江卫视" tvg-id="141" tvg-logo="https://epg.deny.vip/ws/zhejiang.png" group-title="卫视",浙江卫视4K
+http://cbigame.myds.me:8866/udp/233.18.204.216:5140
+#EXTINF:-1 tvg-name="湖南卫视" tvg-id="143" tvg-logo="https://epg.deny.vip/ws/hunan.png" group-title="卫视",湖南卫视4K
 http://cbigame.myds.me:8866/udp/233.18.204.210:5140
+#EXTINF:-1 tvg-name="江苏卫视" tvg-id="142" tvg-logo="https://epg.deny.vip/ws/jiangsu.png" group-title="卫视",江苏卫视HD
+http://cbigame.myds.me:8866/udp/233.18.204.85:5140
 #EXTINF:-1 tvg-name="北京卫视" tvg-id="144" tvg-logo="https://live.fanmingming.com/tv/北京卫视4K.png" group-title="卫视",北京卫视4K
 http://cbigame.myds.me:8866/udp/233.18.204.209:5140
 #EXTINF:-1 tvg-name="广东卫视" tvg-id="145" tvg-logo="https://live.fanmingming.com/tv/广东卫视4K.png" group-title="卫视",广东卫视4K
 http://cbigame.myds.me:8866/udp/233.18.204.218:5140
 #EXTINF:-1 tvg-name="深圳卫视" tvg-id="146" tvg-logo="https://live.fanmingming.com/tv/深圳卫视4K.png" group-title="卫视",深圳卫视4K
 http://cbigame.myds.me:8866/udp/233.18.204.219:5140
+#EXTINF:-1 tvg-name="四川卫视" tvg-id="156" tvg-logo="https://epg.deny.vip/ws/sichuan.png" group-title="卫视",四川卫视4K
+http://cbigame.myds.me:8866/udp/239.45.3.48:5140
+#EXTINF:-1 tvg-name="山东卫视" tvg-id="148" tvg-logo="https://epg.deny.vip/ws/shandong.png" group-title="卫视",山东卫视4K
+http://cbigame.myds.me:8866/udp/239.45.3.180:5140
 #EXTINF:-1 tvg-name="重庆卫视" tvg-id="157" tvg-logo="https://epg.deny.vip/ws/chongqing.png" group-title="卫视",重庆卫视HD
 http://cbigame.myds.me:8866/udp/239.45.1.84:5140
 #EXTINF:-1 tvg-name="天津卫视" tvg-id="154" tvg-logo="https://epg.deny.vip/ws/tianjin.png" group-title="卫视",天津卫视HD
@@ -127,8 +131,6 @@ http://cbigame.myds.me:8866/udp/239.45.1.44:5140
 http://cbigame.myds.me:8866/udp/239.45.0.5:5140
 #EXTINF:-1 tvg-name="江西卫视" tvg-id="152" tvg-logo="https://epg.deny.vip/ws/jiangxi.png" group-title="卫视",江西卫视HD
 http://cbigame.myds.me:8866/udp/239.45.1.122:5140
-#EXTINF:-1 tvg-name="四川卫视" tvg-id="156" tvg-logo="https://epg.deny.vip/ws/sichuan.png" group-title="卫视",四川卫视4K
-http://cbigame.myds.me:8866/udp/239.45.3.48:5140
 #EXTINF:-1 tvg-name="吉林卫视" tvg-id="166" tvg-logo="https://epg.deny.vip/ws/jilin.png" group-title="卫视",吉林卫视HD
 http://cbigame.myds.me:8866/udp/239.45.0.6:5140
 #EXTINF:-1 tvg-name="湖北卫视" tvg-id="149" tvg-logo="https://epg.deny.vip/ws/hubei.png" group-title="卫视",湖北卫视HD
@@ -151,8 +153,6 @@ http://cbigame.myds.me:8866/udp/239.45.0.15:5140
 http://cbigame.myds.me:8866/udp/239.45.3.232:5140
 #EXTINF:-1 tvg-name="贵州卫视" tvg-id="158" tvg-logo="https://epg.deny.vip/ws/guizhou.png" group-title="卫视",贵州卫视HD
 http://cbigame.myds.me:8866/udp/239.45.1.80:5140
-#EXTINF:-1 tvg-name="山东卫视" tvg-id="148" tvg-logo="https://epg.deny.vip/ws/shandong.png" group-title="卫视",山东卫视4K
-http://cbigame.myds.me:8866/udp/233.18.204.216:5140
 #EXTINF:-1 tvg-name="青海卫视" tvg-id="170" tvg-logo="https://epg.deny.vip/ws/qinghai.png" group-title="卫视",青海卫视HD
 http://cbigame.myds.me:8866/udp/233.18.204.112:5140
 #EXTINF:-1 tvg-name="山西卫视" tvg-id="217" tvg-logo="https://epg.deny.vip/ws/shanxi_.png" group-title="卫视",山西卫视HD
@@ -229,6 +229,7 @@ http://cbigame.myds.me:8866/udp/239.45.3.140:5140
 http://cbigame.myds.me:8866/udp/239.45.3.215:5140
 #EXTINF:-1 tvg-name="BesTV直播9" tvg-id="BesTV直播9" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",BesTV直播9
 http://cbigame.myds.me:8866/udp/239.45.3.216:5140
+
 
 
 
