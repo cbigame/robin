@@ -66,7 +66,7 @@ http://cbigame.myds.me:8866/udp/239.45.3.23:5140
 #EXTINF:-1 tvg-name="CCTV-15" tvg-id="138" tvg-logo="https://epg.deny.vip/cctv/CCTV-15.png" group-title="央视",CCTV-15HD
 http://cbigame.myds.me:8866/udp/239.45.0.20:5140
 #EXTINF:-1 tvg-name="CCTV-16" tvg-id="179" tvg-logo="https://epg.deny.vip/cctv/CCTV-16.png" group-title="央视",CCTV-16 4K
-http://cbigame.myds.me:8866/udp/239.18.204.215:5140
+http://cbigame.myds.me:8866/udp/233.18.204.215:5140
 #EXTINF:-1 tvg-name="CCTV-17" tvg-id="140" tvg-logo="https://epg.deny.vip/cctv/CCTV-17.png" group-title="央视",CCTV-17HD
 http://cbigame.myds.me:8866/udp/233.18.204.83:5140
 #EXTINF:-1 tvg-id="124" tvg-name="CCTV-4K" tvg-logo="https://epg.deny.vip/cctv/CCTV-4K.png" group-title="央视",CCTV-4K
@@ -229,6 +229,7 @@ http://cbigame.myds.me:8866/udp/239.45.3.140:5140
 http://cbigame.myds.me:8866/udp/239.45.3.215:5140
 #EXTINF:-1 tvg-name="BesTV直播9" tvg-id="BesTV直播9" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",BesTV直播9
 http://cbigame.myds.me:8866/udp/239.45.3.216:5140
+
 
 
 
