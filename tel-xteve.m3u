@@ -193,7 +193,7 @@ http://cbigame.myds.me:8866/udp/239.45.3.12:5140
 http://cbigame.myds.me:8866/udp/239.45.3.18:5140
 #EXTINF:-1 tvg-id="171" tvg-name="金鹰卡通" tvg-logo="https://epg.deny.vip/df/金鹰卡通.png" group-title="数字频道",金鹰卡通HD
 http://cbigame.myds.me:8866/udp/239.45.3.119:5140
-#EXTINF:-1 tvg-id="171" tvg-name="中国气象" tvg-logo="https://live.fanmingming.cn/tv/中国天气.png" group-title="数字频道",中国气象HD
+#EXTINF:-1 tvg-id="171" tvg-name="中国天气" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/%E4%B8%AD%E5%9B%BD%E5%A4%A9%E6%B0%94.png" group-title="数字频道",中国天气HD
 http://cbigame.myds.me:8866/udp/239.45.3.141:5140
 #EXTINF:-1 tvg-id="236" tvg-name="嘉佳卡通" tvg-logo="https://epg.deny.vip/df/嘉佳卡通.png" group-title="数字频道",嘉佳卡通
 http://cbigame.myds.me:8866/udp/239.45.1.48:5140
@@ -231,4 +231,5 @@ http://cbigame.myds.me:8866/udp/239.45.3.140:5140
 http://cbigame.myds.me:8866/udp/239.45.3.215:5140
 #EXTINF:-1 tvg-name="BesTV直播9" tvg-id="BesTV直播9" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",BesTV直播9
 http://cbigame.myds.me:8866/udp/239.45.3.216:5140
+
 
