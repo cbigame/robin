@@ -1,4 +1,4 @@
-﻿#EXTM3U x-tvg-url="https://epg.deny.vip/sh/tel-epg.xml.gz"
+﻿#EXTM3U x-tvg-url="https://epg.deny.vip/sh/tel-epg.xml"
 #EXTINF:-1 tvg-name="新闻综合" tvg-id="107" tvg-logo="https://epg.deny.vip/df/新闻综合.png" group-title="上海",新闻综合HD
 http://192.168.6.1:8866/udp/233.18.204.57:5140?fcc=124.75.26.151:15970
 #EXTINF:-1 tvg-name="都市频道" tvg-id="103" tvg-logo="https://epg.deny.vip/df/都市频道.png" group-title="上海",都市频道HD
@@ -231,5 +231,6 @@ http://192.168.6.1:8866/udp/239.45.3.140:5140?fcc=124.75.26.151:15970
 http://192.168.6.1:8866/udp/239.45.3.215:5140?fcc=124.75.26.151:15970
 #EXTINF:-1 tvg-name="BesTV直播9" tvg-id="BesTV直播9" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",BesTV直播9
 http://192.168.6.1:8866/udp/239.45.3.216:5140?fcc=124.75.26.151:15970
+
 
 
