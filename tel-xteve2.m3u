@@ -185,10 +185,6 @@ http://192.168.6.1:8866/udp/233.18.204.170:5140?fcc=124.75.26.151:15970&r2h-toke
 http://192.168.6.1:8866/udp/233.18.204.171:5140?fcc=124.75.26.151:15970&r2h-token=855775
 #EXTINF:-1 tvg-name="百事通电影介绍" tvg-id="百事通电影介绍" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="数字频道",百事通电影介绍
 http://192.168.6.1:8866/udp/233.18.204.116:5140?fcc=124.75.26.151:15970&r2h-token=855775
-#EXTINF:-1 tvg-name="百事通电影介绍" tvg-id="百事通电影介绍" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="数字频道",百事通电影介绍
-http://192.168.6.1:8866/udp/233.18.204.201:5140?fcc=124.75.26.151:15970&r2h-token=855775
-#EXTINF:-1 tvg-name="百事通电影介绍" tvg-id="百事通电影介绍" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="数字频道",百事通电影介绍
-http://192.168.6.1:8866/udp/233.18.204.202:5140?fcc=124.75.26.151:15970&r2h-token=855775
 #EXTINF:-1 tvg-name="金鹰纪实" tvg-id="161" tvg-logo="https://epg.deny.vip/df/金鹰纪实.png" group-title="数字频道",金鹰纪实HD
 http://192.168.6.1:8866/udp/233.18.204.104:5140?fcc=124.75.26.151:15970&r2h-token=855775
 #EXTINF:-1 tvg-id="167" tvg-name="卡酷少儿" tvg-logo="https://epg.deny.vip/df/卡酷少儿.png" group-title="数字频道",卡酷少儿HD
@@ -205,9 +201,7 @@ http://192.168.6.1:8866/udp/233.18.204.151:5140?fcc=124.75.26.151:15970&r2h-toke
 http://192.168.6.1:8866/udp/233.18.204.157:5140?fcc=124.75.26.151:15970&r2h-token=855775
 #EXTINF:-1 tvg-id="75" tvg-name="财富天下" tvg-logo="https://epg.deny.vip/df/财富天下.png" group-title="数字频道",财富天下
 http://192.168.6.1:8866/udp/233.18.204.41:5140?fcc=124.75.26.151:15970&r2h-token=855775
-
-
-
-
-
-
+#EXTINF:-1 tvg-name="百事通上海党建" tvg-id="百事通上海党建" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="数字频道",百事通上海党建
+http://192.168.6.1:8866/udp/233.18.204.202:5140?fcc=124.75.26.151:15970&r2h-token=855775
+#EXTINF:-1 tvg-name="百事通体育" tvg-id="百事通体育" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="数字频道",百事通体育
+http://192.168.6.1:8866/udp/233.18.204.201:5140?fcc=124.75.26.151:15970&r2h-token=855775
