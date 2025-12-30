@@ -183,7 +183,7 @@ http://192.168.6.1:8866/udp/233.18.204.169:5140?fcc=124.75.26.151:15970&r2h-toke
 http://192.168.6.1:8866/udp/233.18.204.170:5140?fcc=124.75.26.151:15970&r2h-token=855775
 #EXTINF:-1 tvg-name="百事通4K儿童" tvg-id="百事通4K儿童" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BESTV4K.png" group-title="数字频道",百事通4K儿童
 http://192.168.6.1:8866/udp/233.18.204.171:5140?fcc=124.75.26.151:15970&r2h-token=855775
-#EXTINF:-1 tvg-name="百事通电影介绍" tvg-id="百事通电影介绍" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="数字频道",百事通电影介绍
+#EXTINF:-1 tvg-name="百事通电影介绍" tvg-id="百事通电影介绍" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BESTV4K.png" group-title="数字频道",百事通电影介绍
 http://192.168.6.1:8866/udp/233.18.204.116:5140?fcc=124.75.26.151:15970&r2h-token=855775
 #EXTINF:-1 tvg-name="金鹰纪实" tvg-id="161" tvg-logo="https://epg.deny.vip/df/金鹰纪实.png" group-title="数字频道",金鹰纪实HD
 http://192.168.6.1:8866/udp/233.18.204.104:5140?fcc=124.75.26.151:15970&r2h-token=855775
@@ -205,5 +205,6 @@ http://192.168.6.1:8866/udp/233.18.204.41:5140?fcc=124.75.26.151:15970&r2h-token
 http://192.168.6.1:8866/udp/233.18.204.202:5140?fcc=124.75.26.151:15970&r2h-token=855775
 #EXTINF:-1 tvg-name="百事通体育" tvg-id="百事通体育" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BESTV4K.png" group-title="数字频道",百事通体育
 http://192.168.6.1:8866/udp/233.18.204.201:5140?fcc=124.75.26.151:15970&r2h-token=855775
+
 
 
