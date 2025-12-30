@@ -175,7 +175,7 @@ http://192.168.6.1:8866/udp/233.18.204.155:5140?fcc=124.75.26.151:15970&r2h-toke
 http://192.168.6.1:8866/udp/233.18.204.173:5140?fcc=124.75.26.151:15970&r2h-token=855775
 #EXTINF:-1 tvg-id="77" tvg-name="CHC动作电影" tvg-logo="https://epg.deny.vip/szpd/CHC3.png" group-title="数字频道",CHC动作电影HD
 http://192.168.6.1:8866/udp/233.18.204.174:5140?fcc=124.75.26.151:15970&r2h-token=855775
-#EXTINF:-1 tvg-id="78" tvg-name="CHC影迷电影" tvg-logo="https://live.fanmingming.com/tv/CHC影迷电影.png" group-title="数字频道",CHC影迷电影HD
+#EXTINF:-1 tvg-id="78" tvg-name="CHC影迷电影" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CHC影迷电影.png" group-title="数字频道",CHC影迷电影HD
 http://192.168.6.1:8866/udp/233.18.204.175:5140?fcc=124.75.26.151:15970&r2h-token=855775
 #EXTINF:-1 tvg-name="百事通4K电影" tvg-id="百事通4K电影" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="数字频道",百事通4K电影
 http://192.168.6.1:8866/udp/233.18.204.169:5140?fcc=124.75.26.151:15970&r2h-token=855775
@@ -199,6 +199,7 @@ http://192.168.6.1:8866/udp/233.18.204.151:5140?fcc=124.75.26.151:15970&r2h-toke
 http://192.168.6.1:8866/udp/233.18.204.157:5140?fcc=124.75.26.151:15970&r2h-token=855775
 #EXTINF:-1 tvg-id="75" tvg-name="财富天下" tvg-logo="https://epg.deny.vip/df/财富天下.png" group-title="数字频道",财富天下
 http://192.168.6.1:8866/udp/233.18.204.41:5140?fcc=124.75.26.151:15970&r2h-token=855775
+
 
 
 
