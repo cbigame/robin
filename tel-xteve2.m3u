@@ -205,6 +205,3 @@ http://192.168.6.1:8866/udp/233.18.204.41:5140?fcc=124.75.26.151:15970&r2h-token
 http://192.168.6.1:8866/udp/233.18.204.202:5140?fcc=124.75.26.151:15970&r2h-token=855775
 #EXTINF:-1 tvg-name="百事通体育" tvg-id="百事通体育" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BESTV4K.png" group-title="数字频道",百事通体育
 http://192.168.6.1:8866/udp/233.18.204.201:5140?fcc=124.75.26.151:15970&r2h-token=855775
-
-
-
