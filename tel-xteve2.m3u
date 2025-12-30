@@ -204,11 +204,11 @@ http://192.168.6.1:8866/udp/233.18.204.157:5140?fcc=124.75.26.151:15970&r2h-toke
 #EXTINF:-1 tvg-id="75" tvg-name="财富天下" tvg-logo="https://epg.deny.vip/df/财富天下.png" group-title="数字频道",财富天下
 http://192.168.6.1:8866/udp/233.18.204.41:5140?fcc=124.75.26.151:15970&r2h-token=855775
 #EXTINF:-1 tvg-name="百事通4K电影" tvg-id="百事通4K电影" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",百事通4K电影
-http://192.168.6.1:8866/udp/239.45.3.107:5140?r2h-token=855775
+http://192.168.6.1:8866/udp/233.18.204.169:5140?fcc=124.75.26.151:15970&r2h-token=855775
 #EXTINF:-1 tvg-name="百事通4K纪实" tvg-id="百事通4K纪实" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",百事通4K纪实
-http://192.168.6.1:8866/udp/239.45.1.10:5140?r2h-token=855775
+http://192.168.6.1:8866/udp/233.18.204.170:5140?fcc=124.75.26.151:15970&r2h-token=855775
 #EXTINF:-1 tvg-name="百事通4K儿童" tvg-id="百事通4K儿童" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",百事通4K儿童
-http://192.168.6.1:8866/udp/239.45.1.1:5140?r2h-token=855775
+http://192.168.6.1:8866/udp/233.18.204.171:5140?fcc=124.75.26.151:15970&r2h-token=855775
 #EXTINF:-1 tvg-name="百事通人文" tvg-id="百事通人文" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",百事通人文
 http://192.168.6.1:8866/udp/239.45.1.29:5140?r2h-token=855775
 #EXTINF:-1 tvg-name="百事通电影介绍" tvg-id="百事通电影介绍" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",百事通电影介绍
@@ -231,6 +231,7 @@ http://192.168.6.1:8866/udp/239.45.3.140:5140?r2h-token=855775
 http://192.168.6.1:8866/udp/239.45.3.215:5140?r2h-token=855775
 #EXTINF:-1 tvg-name="BesTV直播9" tvg-id="BesTV直播9" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="BestTV",BesTV直播9
 http://192.168.6.1:8866/udp/239.45.3.216:5140?r2h-token=855775
+
 
 
 
