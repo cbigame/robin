@@ -1,8 +1,5 @@
 [YAML]
-
-name: 规则母版 V2 (四端通用)
-desc: 公用规则母版 · 四端通用覆写 · v10.0 · 含 GEOSITE
-
+# OpenClash 覆写部署版 · 由 V2 自动转换 · D:/rule_master_override_v2.yaml
 # 公用规则母版 · 覆写层 v10.0
 # 用法: 叠加到机场订阅之上 (各客户端覆写/合并机制), 不含 proxies/DNS/TUN/geox-url/MATCH
 # 版本变更: v10.0 V2: +58 条 GEOSITE 分类规则(已验证 meta-rules-dat 分类名) + rules 加 #!replace(Stash 也整体覆盖, 四端行为统一为母版规则)
