@@ -1,13 +1,14 @@
-[YAML]
-# 公用规则母版 · 覆写层 v10.0 (OpenClash 部署形态)
-# 内容与 rule_master_override_v2.yaml 同源; 适用于 覆写模块 Subscribe 远程订阅 或 本地粘贴
-# 上传 GitHub 后: 运行状态页 → Overwrite Module → + → Subscribe 标签页 → 填 raw URL → 启用 → 重启生效
+[yaml]
+
+name: 规则母版 V2 (四端通用)
+desc: 公用规则母版 · 四端通用覆写 · v10.0 · 含 GEOSITE
+
 # 公用规则母版 · 覆写层 v10.0
 # 用法: 叠加到机场订阅之上 (各客户端覆写/合并机制), 不含 proxies/DNS/TUN/geox-url/MATCH
 # 版本变更: v10.0 V2: +58 条 GEOSITE 分类规则(已验证 meta-rules-dat 分类名) + rules 加 #!replace(Stash 也整体覆盖, 四端行为统一为母版规则)
-# 生成时间: 2026-08-12 14:36
+# 生成时间: 2026-08-12 13:51
 
-proxy-groups:
+proxy-groups: #!replace
   - name: 📋 全部节点
     type: select
     proxies:
@@ -811,7 +812,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🇺🇸 美国
 
-rules:
+rules: #!replace
   - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
   - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
   - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
