@@ -1,0 +1,886 @@
+# 公用规则母版 · 覆写层 v8.1
+# 用法: 叠加到机场订阅之上 (各客户端覆写/合并机制), 不含 proxies/DNS/TUN/geox-url/MATCH
+# 版本变更: v8.1 IP-CIDR no-resolve 字段位置修正(改为第4字段而非嵌payload); v8.0 --unified 四端通用单文件: proxy-groups 全量51组 + #!replace + MATCH 兜底
+# 生成时间: 2026-08-12 12:35
+
+proxy-groups: #!replace
+  - name: 📋 全部节点
+    type: select
+    proxies:
+      - 🇭🇰 香港Z01
+      - 🇯🇵 日本Z01 | IEPL
+      - 🇭🇰 香港Z02 | IEPL
+      - 🇯🇵 日本Z02 | IEPL
+      - 🇭🇰 香港Z03 | IEPL
+      - 🇯🇵 日本Z03 | IEPL
+      - 🇭🇰 香港Z04 | IEPL
+      - 🇯🇵 日本Z04 | IEPL
+      - 🇭🇰 香港Z05 | IEPL
+      - 🇯🇵 日本Z05 | 下载专用 | x0.01
+      - 🇭🇰 香港Z06 | x0.8
+      - 🇯🇵 日本Z06 | 下载专用 | x0.01
+      - 🇭🇰 香港Z07 | x0.8
+      - 🇯🇵 日本Z07 | IEPL
+      - 🇭🇰 香港Z08 | x0.8
+      - 🇯🇵 日本Z08 | IEPL
+      - 🇭🇰 香港Z09 | IEPL
+      - 🇯🇵 日本Z09 | IEPL
+      - 🇭🇰 香港Z10 | IEPL
+      - 🇯🇵 日本Z10 | IEPL
+      - 🇭🇰 香港Z11 | IEPL
+      - 🇯🇵 日本Z11 | IEPL
+      - 🇸🇬 新加坡Z01 | IEPL | x2
+      - 🇸🇬 新加坡Z02 | IEPL | x2
+      - 🇸🇬 新加坡Z03 | IEPL | x2
+      - 🇨🇳 台湾Z01 | IEPL | x2
+      - 🇺🇲 美国Z01 | IEPL | x1.5
+      - 🇺🇲 美国Z02 | IEPL | x1.5
+      - 🇬🇧 英国Z01
+      - 🇦🇷 阿根廷Z01
+      - 🇷🇺 俄罗斯Z01
+      - 🇹🇷 土耳其Z01
+      - 🇰🇷 韩国Z01
+      - 🇮🇳 印度Z01
+      - 🇩🇪 德国Z01
+      - 🇨🇦 加拿大Z01
+      - 🇦🇺 澳大利亚Z01
+      - 🇫🇷 法国Z01
+      - 🇺🇦 乌克兰Z01
+      - 🇯🇵 免费-日本1-Ver.7
+      - 🇯🇵 免费-日本2-Ver.8
+      - 🇯🇵 免费-日本3-Ver.7
+      - 🇯🇵 免费-日本4-Ver.8
+      - 🇯🇵 免费-日本5-Ver.9
+      - 🇯🇵 免费-日本6-Ver.8
+      - 🇯🇵 免费-日本7-Ver.2
+
+  - name: ❓ 未分类
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: 🇭🇰 香港
+    type: select
+    proxies:
+      - 🇭🇰 香港Z01
+      - 🇭🇰 香港Z02 | IEPL
+      - 🇭🇰 香港Z03 | IEPL
+      - 🇭🇰 香港Z04 | IEPL
+      - 🇭🇰 香港Z05 | IEPL
+      - 🇭🇰 香港Z06 | x0.8
+      - 🇭🇰 香港Z07 | x0.8
+      - 🇭🇰 香港Z08 | x0.8
+      - 🇭🇰 香港Z09 | IEPL
+      - 🇭🇰 香港Z10 | IEPL
+      - 🇭🇰 香港Z11 | IEPL
+
+  - name: 🇯🇵 日本
+    type: select
+    proxies:
+      - 🇯🇵 日本Z01 | IEPL
+      - 🇯🇵 日本Z02 | IEPL
+      - 🇯🇵 日本Z03 | IEPL
+      - 🇯🇵 日本Z04 | IEPL
+      - 🇯🇵 日本Z05 | 下载专用 | x0.01
+      - 🇯🇵 日本Z06 | 下载专用 | x0.01
+      - 🇯🇵 日本Z07 | IEPL
+      - 🇯🇵 日本Z08 | IEPL
+      - 🇯🇵 日本Z09 | IEPL
+      - 🇯🇵 日本Z10 | IEPL
+      - 🇯🇵 日本Z11 | IEPL
+
+  - name: 🇸🇬 新加坡
+    type: select
+    proxies:
+      - 🇸🇬 新加坡Z01 | IEPL | x2
+      - 🇸🇬 新加坡Z02 | IEPL | x2
+      - 🇸🇬 新加坡Z03 | IEPL | x2
+
+  - name: 🇨🇳 台湾
+    type: select
+    proxies:
+      - 🇨🇳 台湾Z01 | IEPL | x2
+
+  - name: 🇺🇸 美国
+    type: select
+    proxies:
+      - 🇺🇲 美国Z01 | IEPL | x1.5
+      - 🇺🇲 美国Z02 | IEPL | x1.5
+
+  - name: 🇬🇧 英国
+    type: select
+    proxies:
+      - 🇬🇧 英国Z01
+
+  - name: 🇰🇷 韩国
+    type: select
+    proxies:
+      - 🇰🇷 韩国Z01
+
+  - name: 🇩🇪 德国
+    type: select
+    proxies:
+      - 🇩🇪 德国Z01
+
+  - name: 🇨🇦 加拿大
+    type: select
+    proxies:
+      - 🇨🇦 加拿大Z01
+
+  - name: 🇦🇺 澳大利亚
+    type: select
+    proxies:
+      - 🇦🇺 澳大利亚Z01
+
+  - name: 🇫🇷 法国
+    type: select
+    proxies:
+      - 🇫🇷 法国Z01
+
+  - name: 🇷🇺 俄罗斯
+    type: select
+    proxies:
+      - 🇷🇺 俄罗斯Z01
+
+  - name: 🇹🇷 土耳其
+    type: select
+    proxies:
+      - 🇹🇷 土耳其Z01
+
+  - name: 🇮🇳 印度
+    type: select
+    proxies:
+      - 🇮🇳 印度Z01
+
+  - name: 🇦🇷 阿根廷
+    type: select
+    proxies:
+      - 🇦🇷 阿根廷Z01
+
+  - name: 🇺🇦 乌克兰
+    type: select
+    proxies:
+      - 🇺🇦 乌克兰Z01
+
+  - name: 🎁 免费节点
+    type: select
+    proxies:
+      - 🇯🇵 免费-日本1-Ver.7
+      - 🇯🇵 免费-日本2-Ver.8
+      - 🇯🇵 免费-日本3-Ver.7
+      - 🇯🇵 免费-日本4-Ver.8
+      - 🇯🇵 免费-日本5-Ver.9
+      - 🇯🇵 免费-日本6-Ver.8
+      - 🇯🇵 免费-日本7-Ver.2
+
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: 🤖 AI
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: 🌐 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: ▶️ YouTube
+    type: select
+    proxies:
+      - 🌐 国外媒体
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: 🎬 Netflix
+    type: select
+    proxies:
+      - 🌐 国外媒体
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: 🍿 Disney+
+    type: select
+    proxies:
+      - 🌐 国外媒体
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: 🎞️ HBO
+    type: select
+    proxies:
+      - 🌐 国外媒体
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: 📺 Prime Video
+    type: select
+    proxies:
+      - 🌐 国外媒体
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: 🎵 Spotify
+    type: select
+    proxies:
+      - 🌐 国外媒体
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: 🎵 音乐服务
+    type: select
+    proxies:
+      - 🎵 Spotify
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: 💬 Telegram
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: 🎵 TikTok
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: 🌍 Google
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: 🐙 GitHub
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: ☁️ Cloudflare
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: 🍎 Apple
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: 🪟 Microsoft
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: ☁️ OneDrive
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: 🎮 Steam
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - 🎮 Steam
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: 🌏 港台服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: 🌏 爱奇艺&哔哩哔哩
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: 📺 动画疯
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: 🎓 学术网站
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾
+      - 🇺🇸 美国
+      - 🇬🇧 英国
+      - 🇰🇷 韩国
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
+      - 🇦🇺 澳大利亚
+      - 🇫🇷 法国
+      - 🇷🇺 俄罗斯
+      - 🇹🇷 土耳其
+      - 🇮🇳 印度
+      - 🇦🇷 阿根廷
+      - 🇺🇦 乌克兰
+      - 🎁 免费节点
+      - DIRECT
+
+  - name: 🇨🇳 国内网站
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+
+  - name: 🛑 拦截广告
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+
+  - name: 🔰 选择节点
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+
+  - name: 🌩️ Cloudflare
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+
+  - name: 🎮 Steam 商店/社区
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - DIRECT
+
+  - name: 🎮 Steam 登录/下载
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - DIRECT
+
+  - name: 🎓学术网站
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🇺🇸 美国
+
+rules:
+  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,local,DIRECT
+  - DOMAIN-SUFFIX,adservice.google.com,🛑 拦截广告
+  - DOMAIN-SUFFIX,doubleclick.net,🛑 拦截广告
+  - DOMAIN-SUFFIX,googlesyndication.com,🛑 拦截广告
+  - DOMAIN-SUFFIX,adnxs.com,🛑 拦截广告
+  - DOMAIN-SUFFIX,adsrvr.org,🛑 拦截广告
+  - DOMAIN-SUFFIX,taboola.com,🛑 拦截广告
+  - DOMAIN-SUFFIX,outbrain.com,🛑 拦截广告
+  - DOMAIN-SUFFIX,openai.com,🤖 AI
+  - DOMAIN-SUFFIX,chatgpt.com,🤖 AI
+  - DOMAIN-SUFFIX,anthropic.com,🤖 AI
+  - DOMAIN-SUFFIX,claude.ai,🤖 AI
+  - DOMAIN-SUFFIX,gemini.google.com,🤖 AI
+  - DOMAIN-SUFFIX,perplexity.ai,🤖 AI
+  - DOMAIN-SUFFIX,grok.com,🤖 AI
+  - DOMAIN-SUFFIX,x.ai,🤖 AI
+  - DOMAIN-SUFFIX,sora.com,🤖 AI
+  - DOMAIN-SUFFIX,oaistatic.com,🤖 AI
+  - DOMAIN-SUFFIX,google.com,🌍 Google
+  - DOMAIN-SUFFIX,googleapis.com,🌍 Google
+  - DOMAIN-SUFFIX,gstatic.com,🌍 Google
+  - DOMAIN-SUFFIX,googleusercontent.com,🌍 Google
+  - DOMAIN-SUFFIX,google-analytics.com,🌍 Google
+  - DOMAIN-SUFFIX,youtube.com,▶️ YouTube
+  - DOMAIN-SUFFIX,youtu.be,▶️ YouTube
+  - DOMAIN-SUFFIX,googlevideo.com,▶️ YouTube
+  - DOMAIN-SUFFIX,netflix.com,🎬 Netflix
+  - DOMAIN-SUFFIX,netflix.net,🎬 Netflix
+  - DOMAIN-SUFFIX,nflxvideo.net,🎬 Netflix
+  - DOMAIN-SUFFIX,nflxso.net,🎬 Netflix
+  - DOMAIN-SUFFIX,disneyplus.com,🍿 Disney+
+  - DOMAIN-SUFFIX,dssott.com,🍿 Disney+
+  - DOMAIN-SUFFIX,disney-plus.net,🍿 Disney+
+  - DOMAIN-SUFFIX,hbomax.com,🎞️ HBO
+  - DOMAIN-SUFFIX,hbo.com,🎞️ HBO
+  - DOMAIN-SUFFIX,max.com,🎞️ HBO
+  - DOMAIN-SUFFIX,primevideo.com,📺 Prime Video
+  - DOMAIN-SUFFIX,amazonvideo.com,📺 Prime Video
+  - DOMAIN-SUFFIX,spotify.com,🎵 Spotify
+  - DOMAIN-SUFFIX,spotifycdn.com,🎵 Spotify
+  - DOMAIN-SUFFIX,scdn.co,🎵 Spotify
+  - DOMAIN-SUFFIX,telegram.org,💬 Telegram
+  - DOMAIN-SUFFIX,t.me,💬 Telegram
+  - DOMAIN-SUFFIX,telegra.ph,💬 Telegram
+  - DOMAIN-SUFFIX,tiktok.com,🎵 TikTok
+  - DOMAIN-SUFFIX,tiktokcdn.com,🎵 TikTok
+  - DOMAIN-SUFFIX,byteoversea.com,🎵 TikTok
+  - DOMAIN-SUFFIX,muscdn.com,🎵 TikTok
+  - DOMAIN-SUFFIX,github.com,🐙 GitHub
+  - DOMAIN-SUFFIX,githubusercontent.com,🐙 GitHub
+  - DOMAIN-SUFFIX,githubassets.com,🐙 GitHub
+  - DOMAIN-SUFFIX,cloudflare.com,☁️ Cloudflare
+  - DOMAIN-SUFFIX,cloudflareinsights.com,☁️ Cloudflare
+  - DOMAIN-SUFFIX,apple.com,🍎 Apple
+  - DOMAIN-SUFFIX,icloud.com,🍎 Apple
+  - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 Apple
+  - DOMAIN-SUFFIX,mzstatic.com,🍎 Apple
+  - DOMAIN-SUFFIX,microsoft.com,🪟 Microsoft
+  - DOMAIN-SUFFIX,live.com,🪟 Microsoft
+  - DOMAIN-SUFFIX,office.com,🪟 Microsoft
+  - DOMAIN-SUFFIX,msftconnecttest.com,🪟 Microsoft
+  - DOMAIN-SUFFIX,onedrive.com,☁️ OneDrive
+  - DOMAIN-SUFFIX,sharepoint.com,☁️ OneDrive
+  - DOMAIN-SUFFIX,1drv.ms,☁️ OneDrive
+  - DOMAIN-SUFFIX,steampowered.com,🎮 Steam
+  - DOMAIN-SUFFIX,steamcommunity.com,🎮 Steam
+  - DOMAIN-SUFFIX,steamcontent.com,🎮 Steam
+  - DOMAIN-SUFFIX,steampipe.com,🎮 Steam
+  - DOMAIN-SUFFIX,epicgames.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,unrealengine.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,riotgames.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,playstation.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,xbox.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,scholar.google.com,🎓 学术网站
+  - DOMAIN-SUFFIX,sci-hub.se,🎓 学术网站
+  - DOMAIN-SUFFIX,sci-hub.st,🎓 学术网站
+  - DOMAIN-SUFFIX,nature.com,🎓 学术网站
+  - DOMAIN-SUFFIX,springer.com,🎓 学术网站
+  - DOMAIN-SUFFIX,sciencedirect.com,🎓 学术网站
+  - DOMAIN-SUFFIX,ieee.org,🎓 学术网站
+  - DOMAIN-SUFFIX,acm.org,🎓 学术网站
+  - DOMAIN-SUFFIX,gamer.com.tw,📺 动画疯
+  - DOMAIN-SUFFIX,bahamut.com.tw,📺 动画疯
+  - DOMAIN-SUFFIX,baidu.com,🇨🇳 国内网站
+  - DOMAIN-SUFFIX,qq.com,🇨🇳 国内网站
+  - DOMAIN-SUFFIX,weixin.qq.com,🇨🇳 国内网站
+  - DOMAIN-SUFFIX,taobao.com,🇨🇳 国内网站
+  - DOMAIN-SUFFIX,tmall.com,🇨🇳 国内网站
+  - DOMAIN-SUFFIX,jd.com,🇨🇳 国内网站
+  - DOMAIN-SUFFIX,alipay.com,🇨🇳 国内网站
+  - DOMAIN-SUFFIX,163.com,🇨🇳 国内网站
+  - DOMAIN-SUFFIX,bilibili.com,🇨🇳 国内网站
+  - GEOIP,CN,🇨🇳 国内网站
+  - MATCH,🐟 漏网之鱼
