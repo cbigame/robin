@@ -1,5 +1,7 @@
 # V4 Stash Override (46 groups / 381 rules)
-proxy-groups:
+name: '规则覆写'
+desc: 'github托管规则'
+proxy-groups: #!replace
 - name: 📋 全部节点
   type: select
   include-all: true
@@ -626,7 +628,7 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - DIRECT
-rules:
+rules: #!replace
 - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
 - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
 - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
