@@ -960,7 +960,6 @@ rules!:
   - GEOSITE,bahamut,📺 动画疯
   - GEOSITE,google-scholar,🎓 学术网站
   - GEOSITE,springer,🎓 学术网站
-  - GEOSITE,category-scholar-!cn,🎓 学术网站
   - GEOSITE,twitch,🌐 国外媒体
   - GEOSITE,vimeo,🌐 国外媒体
   - GEOSITE,dailymotion,🌐 国外媒体
@@ -978,7 +977,6 @@ rules!:
   - GEOSITE,dropbox,🚀 节点选择
   - GEOSITE,docker,🚀 节点选择
   - GEOSITE,cn,🇨🇳 国内网站
-  - GEOSITE,geolocation-!cn,🚀 节点选择
   - GEOIP,CN,🇨🇳 国内网站
   - DOMAIN-SUFFIX,webofscience.com,🎓 学术网站
   - DOMAIN-SUFFIX,webofknowledge.com,🎓 学术网站
