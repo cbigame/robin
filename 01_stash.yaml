@@ -1,4 +1,4 @@
-# V5 Stash Override (46 groups / 381 rules)
+# V7 Stash Override (37 groups / 382 rules)
 name: '规则覆写'
 desc: 'github托管规则'
 proxy-groups: #!replace
@@ -6,6 +6,22 @@ proxy-groups: #!replace
   type: select
   include-all: true
   filter: (?i).+
+- name: 🖐️ 手动选择
+  type: select
+  include-all: true
+  filter: (?i).+
+- name: 🚀 节点选择
+  type: select
+  proxies:
+  - 📋 全部节点
+  - 🖐️ 手动选择
+  - 🇭🇰 香港
+  - 🇯🇵 日本
+  - 🇸🇬 新加坡
+  - 🇹🇼 台湾
+  - 🇺🇸 美国
+  - 🇰🇷 韩国
+  - 🌍 其他地区
 - name: 🇭🇰 香港
   type: select
   include-all: true
@@ -26,121 +42,46 @@ proxy-groups: #!replace
   type: select
   include-all: true
   filter: (?i)^(?=.*(?:美国|美國|United ?States|USA|\bUS\b|Los ?Angeles|New ?York|San ?Francisco|Seattle|🇺🇸|🇺🇲))(?!.*(?:免费|free|trial|试用|公益)).+
-- name: 🇬🇧 英国
-  type: select
-  include-all: true
-  filter: (?i)^(?=.*(?:英国|英國|United ?Kingdom|\bUK\b|London|🇬🇧))(?!.*(?:免费|free|trial|试用|公益)).+
 - name: 🇰🇷 韩国
   type: select
   include-all: true
   filter: (?i)^(?=.*(?:韩国|韓國|Korea|Seoul|\bKR\b|🇰🇷))(?!.*(?:免费|free|trial|试用|公益)).+
-- name: 🇩🇪 德国
-  type: select
-  include-all: true
-  filter: (?i)^(?=.*(?:德国|德國|Germany|Frankfurt|Berlin|\bDE\b|🇩🇪))(?!.*(?:免费|free|trial|试用|公益)).+
-- name: 🇨🇦 加拿大
-  type: select
-  include-all: true
-  filter: (?i)^(?=.*(?:加拿大|Canada|Toronto|Vancouver|\bCA\b|🇨🇦))(?!.*(?:免费|free|trial|试用|公益)).+
-- name: 🇦🇺 澳大利亚
-  type: select
-  include-all: true
-  filter: (?i)^(?=.*(?:澳大利亚|澳洲|Australia|Sydney|Melbourne|\bAU\b|🇦🇺))(?!.*(?:免费|free|trial|试用|公益)).+
-- name: 🇫🇷 法国
-  type: select
-  include-all: true
-  filter: (?i)^(?=.*(?:法国|法國|France|Paris|\bFR\b|🇫🇷))(?!.*(?:免费|free|trial|试用|公益)).+
-- name: 🇷🇺 俄罗斯
-  type: select
-  include-all: true
-  filter: (?i)^(?=.*(?:俄罗斯|俄羅斯|Russia|Moscow|\bRU\b|🇷🇺))(?!.*(?:免费|free|trial|试用|公益)).+
-- name: 🇹🇷 土耳其
-  type: select
-  include-all: true
-  filter: (?i)^(?=.*(?:土耳其|Turkey|Istanbul|\bTR\b|🇹🇷))(?!.*(?:免费|free|trial|试用|公益)).+
-- name: 🇮🇳 印度
-  type: select
-  include-all: true
-  filter: (?i)^(?=.*(?:印度|India|Mumbai|Delhi|\bIN\b|🇮🇳))(?!.*(?:免费|free|trial|试用|公益)).+
-- name: 🇦🇷 阿根廷
-  type: select
-  include-all: true
-  filter: (?i)^(?=.*(?:阿根廷|Argentina|Buenos Aires|\bAR\b|🇦🇷))(?!.*(?:免费|free|trial|试用|公益)).+
-- name: 🇺🇦 乌克兰
-  type: select
-  include-all: true
-  filter: (?i)^(?=.*(?:乌克兰|烏克蘭|Ukraine|Kyiv|\bUA\b|🇺🇦))(?!.*(?:免费|free|trial|试用|公益)).+
 - name: 🌍 其他地区
   type: select
   include-all: true
-  filter: (?i)^(?!.*(?:香港|Hong ?Kong|\bHK\b|🇭🇰|HKG|日本|Japan|Tokyo|东京|大阪|Osaka|\bJP\b|🇯🇵|新加坡|Singapore|\bSG\b|🇸🇬|台湾|台灣|Taiwan|\bTW\b|🇹🇼|🇨🇳 台湾|美国|美國|United ?States|USA|\bUS\b|Los ?Angeles|New ?York|San ?Francisco|Seattle|🇺🇸|🇺🇲|英国|英國|United ?Kingdom|\bUK\b|London|🇬🇧|韩国|韓國|Korea|Seoul|\bKR\b|🇰🇷|德国|德國|Germany|Frankfurt|Berlin|\bDE\b|🇩🇪|加拿大|Canada|Toronto|Vancouver|\bCA\b|🇨🇦|澳大利亚|澳洲|Australia|Sydney|Melbourne|\bAU\b|🇦🇺|法国|法國|France|Paris|\bFR\b|🇫🇷|俄罗斯|俄羅斯|Russia|Moscow|\bRU\b|🇷🇺|土耳其|Turkey|Istanbul|\bTR\b|🇹🇷|印度|India|Mumbai|Delhi|\bIN\b|🇮🇳|阿根廷|Argentina|Buenos Aires|\bAR\b|🇦🇷|乌克兰|烏克蘭|Ukraine|Kyiv|\bUA\b|🇺🇦|免费|free|trial|试用|公益)).+
+  filter: (?i)^(?!.*(?:香港|Hong ?Kong|\bHK\b|🇭🇰|HKG|日本|Japan|Tokyo|东京|大阪|Osaka|\bJP\b|🇯🇵|新加坡|Singapore|\bSG\b|🇸🇬|台湾|台灣|Taiwan|\bTW\b|🇹🇼|🇨🇳 台湾|美国|美國|United ?States|USA|\bUS\b|Los ?Angeles|New ?York|San ?Francisco|Seattle|🇺🇸|🇺🇲|韩国|韓國|Korea|Seoul|\bKR\b|🇰🇷|免费|free|trial|试用|公益)).+
 - name: 🎁 免费节点
   type: select
   include-all: true
   filter: (?i)(?:免费|free|trial|试用|公益)
-- name: 🚀 节点选择
-  type: select
-  proxies:
-  - 📋 全部节点
-  - 🇭🇰 香港
-  - 🇯🇵 日本
-  - 🇸🇬 新加坡
-  - 🇹🇼 台湾
-  - 🇺🇸 美国
-  - 🇬🇧 英国
-  - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
-  - 🌍 其他地区
 - name: 🤖 AI
   type: select
   proxies:
   - 🚀 节点选择
+  - 📋 全部节点
+  - 🖐️ 手动选择
   - 🇭🇰 香港
   - 🇯🇵 日本
   - 🇸🇬 新加坡
   - 🇹🇼 台湾
   - 🇺🇸 美国
-  - 🇬🇧 英国
+  - 🌍 其他地区
   - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
   - 🎁 免费节点
   - DIRECT
 - name: 🌐 国外媒体
   type: select
   proxies:
   - 🚀 节点选择
+  - 📋 全部节点
+  - 🖐️ 手动选择
   - 🇭🇰 香港
   - 🇯🇵 日本
   - 🇸🇬 新加坡
   - 🇹🇼 台湾
   - 🇺🇸 美国
-  - 🇬🇧 英国
+  - 🌍 其他地区
   - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
   - 🎁 免费节点
   - DIRECT
 - name: ▶️ YouTube
@@ -148,22 +89,15 @@ proxy-groups: #!replace
   proxies:
   - 🌐 国外媒体
   - 🚀 节点选择
+  - 📋 全部节点
+  - 🖐️ 手动选择
   - 🇭🇰 香港
   - 🇯🇵 日本
   - 🇸🇬 新加坡
   - 🇹🇼 台湾
   - 🇺🇸 美国
-  - 🇬🇧 英国
+  - 🌍 其他地区
   - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
   - 🎁 免费节点
   - DIRECT
 - name: 🎬 Netflix
@@ -171,22 +105,15 @@ proxy-groups: #!replace
   proxies:
   - 🌐 国外媒体
   - 🚀 节点选择
+  - 📋 全部节点
+  - 🖐️ 手动选择
   - 🇭🇰 香港
   - 🇯🇵 日本
   - 🇸🇬 新加坡
   - 🇹🇼 台湾
   - 🇺🇸 美国
-  - 🇬🇧 英国
+  - 🌍 其他地区
   - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
   - 🎁 免费节点
   - DIRECT
 - name: 🍿 Disney+
@@ -194,22 +121,15 @@ proxy-groups: #!replace
   proxies:
   - 🌐 国外媒体
   - 🚀 节点选择
+  - 📋 全部节点
+  - 🖐️ 手动选择
   - 🇭🇰 香港
   - 🇯🇵 日本
   - 🇸🇬 新加坡
   - 🇹🇼 台湾
   - 🇺🇸 美国
-  - 🇬🇧 英国
+  - 🌍 其他地区
   - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
   - 🎁 免费节点
   - DIRECT
 - name: 🎞️ HBO
@@ -217,22 +137,15 @@ proxy-groups: #!replace
   proxies:
   - 🌐 国外媒体
   - 🚀 节点选择
+  - 📋 全部节点
+  - 🖐️ 手动选择
   - 🇭🇰 香港
   - 🇯🇵 日本
   - 🇸🇬 新加坡
   - 🇹🇼 台湾
   - 🇺🇸 美国
-  - 🇬🇧 英国
+  - 🌍 其他地区
   - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
   - 🎁 免费节点
   - DIRECT
 - name: 📺 Prime Video
@@ -240,22 +153,15 @@ proxy-groups: #!replace
   proxies:
   - 🌐 国外媒体
   - 🚀 节点选择
+  - 📋 全部节点
+  - 🖐️ 手动选择
   - 🇭🇰 香港
   - 🇯🇵 日本
   - 🇸🇬 新加坡
   - 🇹🇼 台湾
   - 🇺🇸 美国
-  - 🇬🇧 英国
+  - 🌍 其他地区
   - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
   - 🎁 免费节点
   - DIRECT
 - name: 🎵 Spotify
@@ -263,22 +169,15 @@ proxy-groups: #!replace
   proxies:
   - 🌐 国外媒体
   - 🚀 节点选择
+  - 📋 全部节点
+  - 🖐️ 手动选择
   - 🇭🇰 香港
   - 🇯🇵 日本
   - 🇸🇬 新加坡
   - 🇹🇼 台湾
   - 🇺🇸 美国
-  - 🇬🇧 英国
+  - 🌍 其他地区
   - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
   - 🎁 免费节点
   - DIRECT
 - name: 🎵 音乐服务
@@ -286,154 +185,105 @@ proxy-groups: #!replace
   proxies:
   - 🎵 Spotify
   - 🚀 节点选择
+  - 📋 全部节点
+  - 🖐️ 手动选择
   - 🇭🇰 香港
   - 🇯🇵 日本
   - 🇸🇬 新加坡
   - 🇹🇼 台湾
   - 🇺🇸 美国
-  - 🇬🇧 英国
+  - 🌍 其他地区
   - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
   - 🎁 免费节点
   - DIRECT
 - name: 💬 Telegram
   type: select
   proxies:
   - 🚀 节点选择
+  - 📋 全部节点
+  - 🖐️ 手动选择
   - 🇭🇰 香港
   - 🇯🇵 日本
   - 🇸🇬 新加坡
   - 🇹🇼 台湾
   - 🇺🇸 美国
-  - 🇬🇧 英国
+  - 🌍 其他地区
   - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
   - 🎁 免费节点
   - DIRECT
 - name: 📱 社交网络
   type: select
   proxies:
   - 🚀 节点选择
+  - 📋 全部节点
+  - 🖐️ 手动选择
   - 🇭🇰 香港
   - 🇯🇵 日本
   - 🇸🇬 新加坡
   - 🇹🇼 台湾
   - 🇺🇸 美国
-  - 🇬🇧 英国
+  - 🌍 其他地区
   - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
   - 🎁 免费节点
   - DIRECT
 - name: 🎵 TikTok
   type: select
   proxies:
   - 🚀 节点选择
+  - 📋 全部节点
+  - 🖐️ 手动选择
   - 🇭🇰 香港
   - 🇯🇵 日本
   - 🇸🇬 新加坡
   - 🇹🇼 台湾
   - 🇺🇸 美国
-  - 🇬🇧 英国
+  - 🌍 其他地区
   - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
   - 🎁 免费节点
   - DIRECT
 - name: 🌍 Google
   type: select
   proxies:
   - 🚀 节点选择
+  - 📋 全部节点
+  - 🖐️ 手动选择
   - 🇭🇰 香港
   - 🇯🇵 日本
   - 🇸🇬 新加坡
   - 🇹🇼 台湾
   - 🇺🇸 美国
-  - 🇬🇧 英国
+  - 🌍 其他地区
   - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
   - 🎁 免费节点
   - DIRECT
 - name: 🐙 GitHub
   type: select
   proxies:
   - 🚀 节点选择
+  - 📋 全部节点
+  - 🖐️ 手动选择
   - 🇭🇰 香港
   - 🇯🇵 日本
   - 🇸🇬 新加坡
   - 🇹🇼 台湾
   - 🇺🇸 美国
-  - 🇬🇧 英国
+  - 🌍 其他地区
   - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
   - 🎁 免费节点
   - DIRECT
 - name: ☁️ Cloudflare
   type: select
   proxies:
   - 🚀 节点选择
+  - 📋 全部节点
+  - 🖐️ 手动选择
   - 🇭🇰 香港
   - 🇯🇵 日本
   - 🇸🇬 新加坡
   - 🇹🇼 台湾
   - 🇺🇸 美国
-  - 🇬🇧 英国
+  - 🌍 其他地区
   - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
   - 🎁 免费节点
   - DIRECT
 - name: 🍎 Apple
@@ -441,110 +291,75 @@ proxy-groups: #!replace
   proxies:
   - DIRECT
   - 🚀 节点选择
+  - 📋 全部节点
+  - 🖐️ 手动选择
   - 🇭🇰 香港
   - 🇯🇵 日本
   - 🇸🇬 新加坡
   - 🇹🇼 台湾
   - 🇺🇸 美国
-  - 🇬🇧 英国
+  - 🌍 其他地区
   - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
   - 🎁 免费节点
 - name: 🪟 Microsoft
   type: select
   proxies:
   - DIRECT
   - 🚀 节点选择
+  - 📋 全部节点
+  - 🖐️ 手动选择
   - 🇭🇰 香港
   - 🇯🇵 日本
   - 🇸🇬 新加坡
   - 🇹🇼 台湾
   - 🇺🇸 美国
-  - 🇬🇧 英国
+  - 🌍 其他地区
   - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
   - 🎁 免费节点
 - name: ☁️ OneDrive
   type: select
   proxies:
+  - DIRECT
   - 🚀 节点选择
+  - 📋 全部节点
+  - 🖐️ 手动选择
   - 🇭🇰 香港
   - 🇯🇵 日本
   - 🇸🇬 新加坡
   - 🇹🇼 台湾
   - 🇺🇸 美国
-  - 🇬🇧 英国
+  - 🌍 其他地区
   - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
   - 🎁 免费节点
-  - DIRECT
 - name: 🎮 Steam
   type: select
   proxies:
   - DIRECT
   - 🚀 节点选择
+  - 📋 全部节点
+  - 🖐️ 手动选择
   - 🇭🇰 香港
   - 🇯🇵 日本
   - 🇸🇬 新加坡
   - 🇹🇼 台湾
   - 🇺🇸 美国
-  - 🇬🇧 英国
+  - 🌍 其他地区
   - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
   - 🎁 免费节点
 - name: 🎮 游戏平台
   type: select
   proxies:
   - 🚀 节点选择
+  - 📋 全部节点
+  - 🖐️ 手动选择
   - 🎮 Steam
   - 🇭🇰 香港
   - 🇯🇵 日本
   - 🇸🇬 新加坡
   - 🇹🇼 台湾
   - 🇺🇸 美国
-  - 🇬🇧 英国
+  - 🌍 其他地区
   - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
   - 🎁 免费节点
   - DIRECT
 - name: 🌏 爱奇艺&哔哩哔哩
@@ -552,65 +367,44 @@ proxy-groups: #!replace
   proxies:
   - DIRECT
   - 🚀 节点选择
+  - 📋 全部节点
+  - 🖐️ 手动选择
   - 🇭🇰 香港
   - 🇯🇵 日本
   - 🇸🇬 新加坡
   - 🇹🇼 台湾
   - 🇺🇸 美国
-  - 🇬🇧 英国
+  - 🌍 其他地区
   - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
   - 🎁 免费节点
 - name: 📺 动画疯
   type: select
   proxies:
+  - 🇹🇼 台湾
   - 🚀 节点选择
+  - 📋 全部节点
+  - 🖐️ 手动选择
   - 🇭🇰 香港
   - 🇯🇵 日本
   - 🇸🇬 新加坡
-  - 🇹🇼 台湾
   - 🇺🇸 美国
-  - 🇬🇧 英国
+  - 🌍 其他地区
   - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
   - 🎁 免费节点
   - DIRECT
 - name: 🎓 学术网站
   type: select
   proxies:
   - 🚀 节点选择
+  - 📋 全部节点
+  - 🖐️ 手动选择
   - 🇭🇰 香港
   - 🇯🇵 日本
   - 🇸🇬 新加坡
   - 🇹🇼 台湾
   - 🇺🇸 美国
-  - 🇬🇧 英国
+  - 🌍 其他地区
   - 🇰🇷 韩国
-  - 🇩🇪 德国
-  - 🇨🇦 加拿大
-  - 🇦🇺 澳大利亚
-  - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
-  - 🇹🇷 土耳其
-  - 🇮🇳 印度
-  - 🇦🇷 阿根廷
-  - 🇺🇦 乌克兰
   - 🎁 免费节点
   - DIRECT
 - name: 🇨🇳 国内网站
@@ -1009,4 +803,5 @@ rules: #!replace
 - IP-CIDR,104.24.0.0/14,☁️ Cloudflare
 - IP-CIDR,172.64.0.0/13,☁️ Cloudflare
 - IP-CIDR,131.0.72.0/22,☁️ Cloudflare
+- DOMAIN-SUFFIX,m-team.cc,🚀 节点选择
 - MATCH,🐟 漏网之鱼
